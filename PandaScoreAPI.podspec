@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license = { :type => "MIT", :file => "LICENSE" }
   s.author = { "Mason Phillips" => "math.matrix@icloud.com" }
 
-  s.source = { :git => "https://github.com/matrixsenpai/panda-api.git", :tag => s.version.to_s }
+  s.source = { :git => "https://github.com/matrixsenpai/pandascore-api.git", :tag => s.version.to_s }
 
   s.ios.deployment_target = "12.0"
 
