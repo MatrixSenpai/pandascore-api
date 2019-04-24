@@ -1417,7 +1417,7 @@
     {
       "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/Stats/GetPlayerStatsEndpoint.swift",
       "line": 35,
-      "symbol": "Client.getPlayerStats(for:id:comletion:)",
+      "symbol": "Client.getPlayerStats(for:id:completion:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
