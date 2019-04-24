@@ -1,0 +1,2844 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Structures  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Section/Structures" class="dashAnchor"></a>
+    <a title="Structures  Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="index.html">PandaAPI Docs</a> (10% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="index.html">PandaAPI Reference</a>
+        <img id="carat" src="img/carat.png" />
+        Structures  Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Classes/Champion.html">Champion</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/Client.html">Client</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Enums/DrakeName.html">DrakeName</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/DrakeType.html">DrakeType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/EventKillerType.html">EventKillerType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/EventMinionName.html">EventMinionName</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/EventType.html">EventType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/EventVictimType.html">EventVictimType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/GroupingType.html">GroupingType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/MatchStatus.html">MatchStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/MatchType.html">MatchType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/OpponentType.html">OpponentType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/Role.html">Role</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/StatsType.html">StatsType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/SupportedLeague.html">SupportedLeague</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/TeamColor.html">TeamColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/Timing.html">Timing</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Extensions/DateFormatter.html">DateFormatter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/KeyedDecodingContainer.html">KeyedDecodingContainer</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Protocols.html#/s:8PandaAPI8APIModelP">APIModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols.html#/s:8PandaAPI12BaseOpponentP">BaseOpponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols.html#/s:8PandaAPI21EventKillerObjectTypeP">EventKillerObjectType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols.html#/s:8PandaAPI21EventVictimObjectTypeP">EventVictimObjectType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/ResponseDecoder.html">ResponseDecoder</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Structs/BaseChampion.html">BaseChampion</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/BaseGame.html">BaseGame</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/BaseItem.html">BaseItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/BaseLeague.html">BaseLeague</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/BaseMatch.html">BaseMatch</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/BasePlayer.html">BasePlayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/BaseSerie.html">BaseSerie</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/BaseTeam.html">BaseTeam</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/BaseTournament.html">BaseTournament</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/DateDay.html">DateDay</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/EventAssist.html">EventAssist</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/EventChampion.html">EventChampion</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/EventDrake.html">EventDrake</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/EventHerald.html">EventHerald</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/EventInhibitor.html">EventInhibitor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/EventKiller.html">EventKiller</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/EventMinion.html">EventMinion</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/EventNashor.html">EventNashor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/EventNeutralMinion.html">EventNeutralMinion</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/EventPayload.html">EventPayload</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/EventPlayer.html">EventPlayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/EventTower.html">EventTower</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/EventVictim.html">EventVictim</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/FavoriteChampion.html">FavoriteChampion</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs.html#/s:8PandaAPI4FlagV">Flag</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/FrameTeam.html">FrameTeam</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/FullGameMatch.html">FullGameMatch</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Game.html">Game</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/GameEvent.html">GameEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/GameFrame.html">GameFrame</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/GamePlayer.html">GamePlayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/GameTeam.html">GameTeam</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/GamesForMatchParameterObject.html">GamesForMatchParameterObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/GamesForMatchSortObject.html">GamesForMatchSortObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/GamesForMatchSortObject/GamesForMatchSortKey.html">– GamesForMatchSortKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/GetLeaguesParameterObject.html">GetLeaguesParameterObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/GetLeaguesSortObject.html">GetLeaguesSortObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/GetLeaguesSortObject/GetLeaguesSortKey.html">– GetLeaguesSortKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/GetMatchesParameterObject.html">GetMatchesParameterObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/GetMatchesSortObject.html">GetMatchesSortObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/GetMatchesSortObject/GetMatchesSortKey.html">– GetMatchesSortKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Item.html">Item</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/ItemsParameterObject.html">ItemsParameterObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/ItemsSortObject.html">ItemsSortObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/ItemsSortObject/ItemsSortKey.html">– ItemsSortKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/KillsCounters.html">KillsCounters</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/KillsSeries.html">KillsSeries</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/League.html">League</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/MagicDamage.html">MagicDamage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Mastery.html">Mastery</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Match.html">Match</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/MatchLive.html">MatchLive</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/MatchTeamResult.html">MatchTeamResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/MostPickedOrBanned.html">MostPickedOrBanned</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Opponent.html">Opponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/PhysicalDamage.html">PhysicalDamage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Player.html">Player</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/PlayerAverage.html">PlayerAverage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/PlayerBySerieStats.html">PlayerBySerieStats</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/PlayerParameterObject.html">PlayerParameterObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/PlayerRoleDetail.html">PlayerRoleDetail</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/PlayerRoles.html">PlayerRoles</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/PlayerSortObject.html">PlayerSortObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/PlayerSortObject/PlayerSortObjectKey.html">– PlayerSortObjectKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Rune.html">Rune</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Serie.html">Serie</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/SeriesParameterObject.html">SeriesParameterObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/SeriesSortObject.html">SeriesSortObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/SeriesSortObject/SeriesSortKeys.html">– SeriesSortKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/ShortVideogameVersion.html">ShortVideogameVersion</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Spell.html">Spell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/StatsPlayer.html">StatsPlayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/StatsTeam.html">StatsTeam</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/StatsTotal.html">StatsTotal</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Team.html">Team</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/TeamAverage.html">TeamAverage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/TeamBySerieStat.html">TeamBySerieStat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/TeamLastGame.html">TeamLastGame</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/TeamRatio.html">TeamRatio</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/TotalDamage.html">TotalDamage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Tournament.html">Tournament</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/TournamentsParameterObject.html">TournamentsParameterObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/TournamentsSortObject.html">TournamentsSortObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/TournamentsSortObject/TournamentsSortKeys.html">– TournamentsSortKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/TrueDamage.html">TrueDamage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/UsedItem.html">UsedItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Videogame.html">Videogame</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Ward.html">Ward</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Winner.html">Winner</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Typealiases.html#/s:8PandaAPI11APIResponsea">APIResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Typealiases.html#/s:8PandaAPI8DateTimea">DateTime</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Typealiases.html#/s:8PandaAPI4Filea">File</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Typealiases.html#/s:8PandaAPI2IDa">ID</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>Structures</h1>
+            <p>The following structures are available globally.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI28GamesForMatchParameterObjectV"></a>
+                    <a name="//apple_ref/swift/Struct/GamesForMatchParameterObject" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI28GamesForMatchParameterObjectV">GamesForMatchParameterObject</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/GamesForMatchParameterObject.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">GamesForMatchParameterObject</span> <span class="p">:</span> <span class="kt">ParameterObject</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI23GamesForMatchSortObjectV"></a>
+                    <a name="//apple_ref/swift/Struct/GamesForMatchSortObject" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI23GamesForMatchSortObjectV">GamesForMatchSortObject</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/GamesForMatchSortObject.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">GamesForMatchSortObject</span> <span class="p">:</span> <span class="kt">SortObject</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI20ItemsParameterObjectV"></a>
+                    <a name="//apple_ref/swift/Struct/ItemsParameterObject" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI20ItemsParameterObjectV">ItemsParameterObject</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/ItemsParameterObject.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ItemsParameterObject</span> <span class="p">:</span> <span class="kt">ParameterObject</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI15ItemsSortObjectV"></a>
+                    <a name="//apple_ref/swift/Struct/ItemsSortObject" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI15ItemsSortObjectV">ItemsSortObject</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/ItemsSortObject.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ItemsSortObject</span> <span class="p">:</span> <span class="kt">SortObject</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI25GetLeaguesParameterObjectV"></a>
+                    <a name="//apple_ref/swift/Struct/GetLeaguesParameterObject" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI25GetLeaguesParameterObjectV">GetLeaguesParameterObject</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/GetLeaguesParameterObject.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">GetLeaguesParameterObject</span> <span class="p">:</span> <span class="kt">ParameterObject</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI20GetLeaguesSortObjectV"></a>
+                    <a name="//apple_ref/swift/Struct/GetLeaguesSortObject" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI20GetLeaguesSortObjectV">GetLeaguesSortObject</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/GetLeaguesSortObject.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">GetLeaguesSortObject</span> <span class="p">:</span> <span class="kt">SortObject</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI25GetMatchesParameterObjectV"></a>
+                    <a name="//apple_ref/swift/Struct/GetMatchesParameterObject" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI25GetMatchesParameterObjectV">GetMatchesParameterObject</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/GetMatchesParameterObject.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">GetMatchesParameterObject</span> <span class="p">:</span> <span class="kt">ParameterObject</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI20GetMatchesSortObjectV"></a>
+                    <a name="//apple_ref/swift/Struct/GetMatchesSortObject" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI20GetMatchesSortObjectV">GetMatchesSortObject</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/GetMatchesSortObject.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">GetMatchesSortObject</span> <span class="p">:</span> <span class="kt">SortObject</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI21PlayerParameterObjectV"></a>
+                    <a name="//apple_ref/swift/Struct/PlayerParameterObject" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI21PlayerParameterObjectV">PlayerParameterObject</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/PlayerParameterObject.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">PlayerParameterObject</span> <span class="p">:</span> <span class="kt">ParameterObject</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI16PlayerSortObjectV"></a>
+                    <a name="//apple_ref/swift/Struct/PlayerSortObject" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI16PlayerSortObjectV">PlayerSortObject</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/PlayerSortObject.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">PlayerSortObject</span> <span class="p">:</span> <span class="kt">SortObject</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI21SeriesParameterObjectV"></a>
+                    <a name="//apple_ref/swift/Struct/SeriesParameterObject" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI21SeriesParameterObjectV">SeriesParameterObject</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/SeriesParameterObject.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">SeriesParameterObject</span> <span class="p">:</span> <span class="kt">ParameterObject</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI16SeriesSortObjectV"></a>
+                    <a name="//apple_ref/swift/Struct/SeriesSortObject" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI16SeriesSortObjectV">SeriesSortObject</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/SeriesSortObject.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">SeriesSortObject</span> <span class="p">:</span> <span class="kt">SortObject</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI26TournamentsParameterObjectV"></a>
+                    <a name="//apple_ref/swift/Struct/TournamentsParameterObject" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI26TournamentsParameterObjectV">TournamentsParameterObject</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/TournamentsParameterObject.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">TournamentsParameterObject</span> <span class="p">:</span> <span class="kt">ParameterObject</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI21TournamentsSortObjectV"></a>
+                    <a name="//apple_ref/swift/Struct/TournamentsSortObject" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI21TournamentsSortObjectV">TournamentsSortObject</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/TournamentsSortObject.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">TournamentsSortObject</span> <span class="p">:</span> <span class="kt">SortObject</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI12BaseChampionV"></a>
+                    <a name="//apple_ref/swift/Struct/BaseChampion" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI12BaseChampionV">BaseChampion</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A simple version of Champion</p>
+
+                        <a href="Structs/BaseChampion.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">BaseChampion</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI13EventChampionV"></a>
+                    <a name="//apple_ref/swift/Struct/EventChampion" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI13EventChampionV">EventChampion</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A simplified version of Champion for Events</p>
+
+                        <a href="Structs/EventChampion.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">EventChampion</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI7DateDayV"></a>
+                    <a name="//apple_ref/swift/Struct/DateDay" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI7DateDayV">DateDay</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/DateDay.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">DateDay</span> <span class="p">:</span> <span class="kt">Codable</span><span class="p">,</span> <span class="kt">Comparable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI8OpponentV"></a>
+                    <a name="//apple_ref/swift/Struct/Opponent" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI8OpponentV">Opponent</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/Opponent.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Opponent</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI6WinnerV"></a>
+                    <a name="//apple_ref/swift/Struct/Winner" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI6WinnerV">Winner</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/Winner.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Winner</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI4GameV"></a>
+                    <a name="//apple_ref/swift/Struct/Game" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI4GameV">Game</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A League of Legends Game</p>
+
+                        <a href="Structs/Game.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Game</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI8BaseGameV"></a>
+                    <a name="//apple_ref/swift/Struct/BaseGame" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI8BaseGameV">BaseGame</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A simplified Game object</p>
+
+                        <a href="Structs/BaseGame.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">BaseGame</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI9GameEventV"></a>
+                    <a name="//apple_ref/swift/Struct/GameEvent" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI9GameEventV">GameEvent</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/GameEvent.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">GameEvent</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI9GameFrameV"></a>
+                    <a name="//apple_ref/swift/Struct/GameFrame" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI9GameFrameV">GameFrame</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/GameFrame.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">GameFrame</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI12EventPayloadV"></a>
+                    <a name="//apple_ref/swift/Struct/EventPayload" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI12EventPayloadV">EventPayload</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/EventPayload.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">EventPayload</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI11EventAssistV"></a>
+                    <a name="//apple_ref/swift/Struct/EventAssist" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI11EventAssistV">EventAssist</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/EventAssist.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">EventAssist</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI11EventKillerV"></a>
+                    <a name="//apple_ref/swift/Struct/EventKiller" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI11EventKillerV">EventKiller</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/EventKiller.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">EventKiller</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI10EventDrakeV"></a>
+                    <a name="//apple_ref/swift/Struct/EventDrake" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI10EventDrakeV">EventDrake</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/EventDrake.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">EventDrake</span> <span class="p">:</span> <span class="kt">Decodable</span><span class="p">,</span> <span class="kt"><a href="Protocols.html#/s:8PandaAPI21EventKillerObjectTypeP">EventKillerObjectType</a></span><span class="p">,</span> <span class="kt"><a href="Protocols.html#/s:8PandaAPI21EventVictimObjectTypeP">EventVictimObjectType</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI11EventHeraldV"></a>
+                    <a name="//apple_ref/swift/Struct/EventHerald" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI11EventHeraldV">EventHerald</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/EventHerald.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">EventHerald</span> <span class="p">:</span> <span class="kt">Decodable</span><span class="p">,</span> <span class="kt"><a href="Protocols.html#/s:8PandaAPI21EventKillerObjectTypeP">EventKillerObjectType</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI11EventMinionV"></a>
+                    <a name="//apple_ref/swift/Struct/EventMinion" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI11EventMinionV">EventMinion</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/EventMinion.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">EventMinion</span> <span class="p">:</span> <span class="kt">Decodable</span><span class="p">,</span> <span class="kt"><a href="Protocols.html#/s:8PandaAPI21EventKillerObjectTypeP">EventKillerObjectType</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI11EventNashorV"></a>
+                    <a name="//apple_ref/swift/Struct/EventNashor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI11EventNashorV">EventNashor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/EventNashor.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">EventNashor</span> <span class="p">:</span> <span class="kt">Decodable</span><span class="p">,</span> <span class="kt"><a href="Protocols.html#/s:8PandaAPI21EventKillerObjectTypeP">EventKillerObjectType</a></span><span class="p">,</span> <span class="kt"><a href="Protocols.html#/s:8PandaAPI21EventVictimObjectTypeP">EventVictimObjectType</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI10EventTowerV"></a>
+                    <a name="//apple_ref/swift/Struct/EventTower" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI10EventTowerV">EventTower</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/EventTower.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">EventTower</span> <span class="p">:</span> <span class="kt">Decodable</span><span class="p">,</span> <span class="kt"><a href="Protocols.html#/s:8PandaAPI21EventKillerObjectTypeP">EventKillerObjectType</a></span><span class="p">,</span> <span class="kt"><a href="Protocols.html#/s:8PandaAPI21EventVictimObjectTypeP">EventVictimObjectType</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI18EventNeutralMinionV"></a>
+                    <a name="//apple_ref/swift/Struct/EventNeutralMinion" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI18EventNeutralMinionV">EventNeutralMinion</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/EventNeutralMinion.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">EventNeutralMinion</span> <span class="p">:</span> <span class="kt">Decodable</span><span class="p">,</span> <span class="kt"><a href="Protocols.html#/s:8PandaAPI21EventKillerObjectTypeP">EventKillerObjectType</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI11EventVictimV"></a>
+                    <a name="//apple_ref/swift/Struct/EventVictim" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI11EventVictimV">EventVictim</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/EventVictim.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">EventVictim</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI14EventInhibitorV"></a>
+                    <a name="//apple_ref/swift/Struct/EventInhibitor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI14EventInhibitorV">EventInhibitor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/EventInhibitor.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">EventInhibitor</span> <span class="p">:</span> <span class="kt">Decodable</span><span class="p">,</span> <span class="kt"><a href="Protocols.html#/s:8PandaAPI21EventVictimObjectTypeP">EventVictimObjectType</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI9VideogameV"></a>
+                    <a name="//apple_ref/swift/Struct/Videogame" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI9VideogameV">Videogame</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/Videogame.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Videogame</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI21ShortVideogameVersionV"></a>
+                    <a name="//apple_ref/swift/Struct/ShortVideogameVersion" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI21ShortVideogameVersionV">ShortVideogameVersion</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/ShortVideogameVersion.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">ShortVideogameVersion</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI4ItemV"></a>
+                    <a name="//apple_ref/swift/Struct/Item" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI4ItemV">Item</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/Item.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Item</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI8BaseItemV"></a>
+                    <a name="//apple_ref/swift/Struct/BaseItem" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI8BaseItemV">BaseItem</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/BaseItem.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">BaseItem</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI6LeagueV"></a>
+                    <a name="//apple_ref/swift/Struct/League" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI6LeagueV">League</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Leagues are the top level events. They don&rsquo;t have a date and represent a regular competition. A League is composed of one or several series.
+Some League of Legends leagues are: EU LCS, NA LCS, LCK, etc.</p>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <a href="https://developers.pandascore.co/doc/#section/Introduction/Events-hierarchy">PandaScore Documentation</a>
+
+</div>
+
+                        <a href="Structs/League.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">League</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI10BaseLeagueV"></a>
+                    <a name="//apple_ref/swift/Struct/BaseLeague" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI10BaseLeagueV">BaseLeague</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/BaseLeague.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">BaseLeague</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI7MasteryV"></a>
+                    <a name="//apple_ref/swift/Struct/Mastery" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI7MasteryV">Mastery</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/Mastery.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Mastery</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI13FullGameMatchV"></a>
+                    <a name="//apple_ref/swift/Struct/FullGameMatch" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI13FullGameMatchV">FullGameMatch</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/FullGameMatch.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">FullGameMatch</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI9MatchLiveV"></a>
+                    <a name="//apple_ref/swift/Struct/MatchLive" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI9MatchLiveV">MatchLive</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/MatchLive.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">MatchLive</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI15MatchTeamResultV"></a>
+                    <a name="//apple_ref/swift/Struct/MatchTeamResult" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI15MatchTeamResultV">MatchTeamResult</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/MatchTeamResult.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">MatchTeamResult</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI5MatchV"></a>
+                    <a name="//apple_ref/swift/Struct/Match" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI5MatchV">Match</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/Match.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Match</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI9BaseMatchV"></a>
+                    <a name="//apple_ref/swift/Struct/BaseMatch" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI9BaseMatchV">BaseMatch</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/BaseMatch.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">BaseMatch</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI10GamePlayerV"></a>
+                    <a name="//apple_ref/swift/Struct/GamePlayer" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI10GamePlayerV">GamePlayer</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/GamePlayer.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">GamePlayer</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI4FlagV"></a>
+                    <a name="//apple_ref/swift/Struct/Flag" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI4FlagV">Flag</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Flag</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI13KillsCountersV"></a>
+                    <a name="//apple_ref/swift/Struct/KillsCounters" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI13KillsCountersV">KillsCounters</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/KillsCounters.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">KillsCounters</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI11KillsSeriesV"></a>
+                    <a name="//apple_ref/swift/Struct/KillsSeries" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI11KillsSeriesV">KillsSeries</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/KillsSeries.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">KillsSeries</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI11MagicDamageV"></a>
+                    <a name="//apple_ref/swift/Struct/MagicDamage" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI11MagicDamageV">MagicDamage</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/MagicDamage.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">MagicDamage</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI14PhysicalDamageV"></a>
+                    <a name="//apple_ref/swift/Struct/PhysicalDamage" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI14PhysicalDamageV">PhysicalDamage</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/PhysicalDamage.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">PhysicalDamage</span> <span class="p">:</span> <span class="kt">Codable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI11TotalDamageV"></a>
+                    <a name="//apple_ref/swift/Struct/TotalDamage" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI11TotalDamageV">TotalDamage</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/TotalDamage.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">TotalDamage</span> <span class="p">:</span> <span class="kt">Codable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI10TrueDamageV"></a>
+                    <a name="//apple_ref/swift/Struct/TrueDamage" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI10TrueDamageV">TrueDamage</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/TrueDamage.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">TrueDamage</span> <span class="p">:</span> <span class="kt">Codable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI4WardV"></a>
+                    <a name="//apple_ref/swift/Struct/Ward" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI4WardV">Ward</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/Ward.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Ward</span> <span class="p">:</span> <span class="kt">Codable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI6PlayerV"></a>
+                    <a name="//apple_ref/swift/Struct/Player" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI6PlayerV">Player</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/Player.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Player</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI10BasePlayerV"></a>
+                    <a name="//apple_ref/swift/Struct/BasePlayer" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI10BasePlayerV">BasePlayer</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/BasePlayer.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">BasePlayer</span> <span class="p">:</span> <span class="kt">Decodable</span><span class="p">,</span> <span class="kt"><a href="Protocols.html#/s:8PandaAPI12BaseOpponentP">BaseOpponent</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI11EventPlayerV"></a>
+                    <a name="//apple_ref/swift/Struct/EventPlayer" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI11EventPlayerV">EventPlayer</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/EventPlayer.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">EventPlayer</span> <span class="p">:</span> <span class="kt">Decodable</span><span class="p">,</span> <span class="kt"><a href="Protocols.html#/s:8PandaAPI21EventKillerObjectTypeP">EventKillerObjectType</a></span><span class="p">,</span> <span class="kt"><a href="Protocols.html#/s:8PandaAPI21EventVictimObjectTypeP">EventVictimObjectType</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI4RuneV"></a>
+                    <a name="//apple_ref/swift/Struct/Rune" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI4RuneV">Rune</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/Rune.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Rune</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI5SerieV"></a>
+                    <a name="//apple_ref/swift/Struct/Serie" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI5SerieV">Serie</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/Serie.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Serie</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI9BaseSerieV"></a>
+                    <a name="//apple_ref/swift/Struct/BaseSerie" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI9BaseSerieV">BaseSerie</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/BaseSerie.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">BaseSerie</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI5SpellV"></a>
+                    <a name="//apple_ref/swift/Struct/Spell" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI5SpellV">Spell</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/Spell.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Spell</span> <span class="p">:</span> <span class="kt">Codable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI11StatsPlayerV"></a>
+                    <a name="//apple_ref/swift/Struct/StatsPlayer" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI11StatsPlayerV">StatsPlayer</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/StatsPlayer.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">StatsPlayer</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI9StatsTeamV"></a>
+                    <a name="//apple_ref/swift/Struct/StatsTeam" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI9StatsTeamV">StatsTeam</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/StatsTeam.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">StatsTeam</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI16FavoriteChampionV"></a>
+                    <a name="//apple_ref/swift/Struct/FavoriteChampion" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI16FavoriteChampionV">FavoriteChampion</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/FavoriteChampion.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">FavoriteChampion</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI8UsedItemV"></a>
+                    <a name="//apple_ref/swift/Struct/UsedItem" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI8UsedItemV">UsedItem</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/UsedItem.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">UsedItem</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI18PlayerBySerieStatsV"></a>
+                    <a name="//apple_ref/swift/Struct/PlayerBySerieStats" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI18PlayerBySerieStatsV">PlayerBySerieStats</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/PlayerBySerieStats.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">PlayerBySerieStats</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI13PlayerAverageV"></a>
+                    <a name="//apple_ref/swift/Struct/PlayerAverage" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI13PlayerAverageV">PlayerAverage</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/PlayerAverage.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">PlayerAverage</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI10StatsTotalV"></a>
+                    <a name="//apple_ref/swift/Struct/StatsTotal" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI10StatsTotalV">StatsTotal</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/StatsTotal.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">StatsTotal</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI12TeamLastGameV"></a>
+                    <a name="//apple_ref/swift/Struct/TeamLastGame" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI12TeamLastGameV">TeamLastGame</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/TeamLastGame.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">TeamLastGame</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI18MostPickedOrBannedV"></a>
+                    <a name="//apple_ref/swift/Struct/MostPickedOrBanned" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI18MostPickedOrBannedV">MostPickedOrBanned</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/MostPickedOrBanned.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">MostPickedOrBanned</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI15TeamBySerieStatV"></a>
+                    <a name="//apple_ref/swift/Struct/TeamBySerieStat" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI15TeamBySerieStatV">TeamBySerieStat</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/TeamBySerieStat.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">TeamBySerieStat</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI11TeamAverageV"></a>
+                    <a name="//apple_ref/swift/Struct/TeamAverage" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI11TeamAverageV">TeamAverage</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/TeamAverage.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">TeamAverage</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI9TeamRatioV"></a>
+                    <a name="//apple_ref/swift/Struct/TeamRatio" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI9TeamRatioV">TeamRatio</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/TeamRatio.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">TeamRatio</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI9FrameTeamV"></a>
+                    <a name="//apple_ref/swift/Struct/FrameTeam" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI9FrameTeamV">FrameTeam</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/FrameTeam.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">FrameTeam</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI11PlayerRolesV"></a>
+                    <a name="//apple_ref/swift/Struct/PlayerRoles" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI11PlayerRolesV">PlayerRoles</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/PlayerRoles.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">PlayerRoles</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI16PlayerRoleDetailV"></a>
+                    <a name="//apple_ref/swift/Struct/PlayerRoleDetail" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI16PlayerRoleDetailV">PlayerRoleDetail</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/PlayerRoleDetail.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">PlayerRoleDetail</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI8GameTeamV"></a>
+                    <a name="//apple_ref/swift/Struct/GameTeam" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI8GameTeamV">GameTeam</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/GameTeam.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">GameTeam</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI4TeamV"></a>
+                    <a name="//apple_ref/swift/Struct/Team" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI4TeamV">Team</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/Team.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Team</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI8BaseTeamV"></a>
+                    <a name="//apple_ref/swift/Struct/BaseTeam" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI8BaseTeamV">BaseTeam</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/BaseTeam.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">BaseTeam</span> <span class="p">:</span> <span class="kt">Decodable</span><span class="p">,</span> <span class="kt"><a href="Protocols.html#/s:8PandaAPI12BaseOpponentP">BaseOpponent</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI10TournamentV"></a>
+                    <a name="//apple_ref/swift/Struct/Tournament" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI10TournamentV">Tournament</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/Tournament.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Tournament</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8PandaAPI14BaseTournamentV"></a>
+                    <a name="//apple_ref/swift/Struct/BaseTournament" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8PandaAPI14BaseTournamentV">BaseTournament</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Structs/BaseTournament.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">BaseTournament</span> <span class="p">:</span> <span class="kt">Decodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2019 <a class="link" href="https://github.com/matrixsenpai/panda-api" target="_blank" rel="external">Mason Phillips</a>. All rights reserved. (Last updated: 2019-04-24)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

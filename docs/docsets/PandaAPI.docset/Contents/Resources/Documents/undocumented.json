@@ -1,0 +1,4534 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/API.swift",
+      "line": null,
+      "symbol": "Client",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/API.swift",
+      "line": null,
+      "symbol": "Client",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/API.swift",
+      "line": null,
+      "symbol": "Client",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/API.swift",
+      "line": null,
+      "symbol": "Client",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/API.swift",
+      "line": null,
+      "symbol": "Client",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/API.swift",
+      "line": null,
+      "symbol": "Client",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/API.swift",
+      "line": null,
+      "symbol": "Client",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/API.swift",
+      "line": null,
+      "symbol": "Client",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/API.swift",
+      "line": null,
+      "symbol": "Client",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/API.swift",
+      "line": 12,
+      "symbol": "APIRequest",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/API.swift",
+      "line": 13,
+      "symbol": "APIRequest.Response",
+      "symbol_kind": "source.lang.swift.decl.associatedtype",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/API.swift",
+      "line": 14,
+      "symbol": "APIRequest.base",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/API.swift",
+      "line": 15,
+      "symbol": "APIRequest.endpoint",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/API.swift",
+      "line": 18,
+      "symbol": "Client",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/API.swift",
+      "line": 23,
+      "symbol": "Client.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/ChampionEndpoint.swift",
+      "line": 11,
+      "symbol": "ChampionEndpoint",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/ChampionEndpoint.swift",
+      "line": 12,
+      "symbol": "ChampionEndpoint.Response",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/ChampionEndpoint.swift",
+      "line": 13,
+      "symbol": "ChampionEndpoint.base",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/ChampionEndpoint.swift",
+      "line": 14,
+      "symbol": "ChampionEndpoint.endpoint",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/ChampionEndpoint.swift",
+      "line": 28,
+      "symbol": "ChampionsEndpoint",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/ChampionEndpoint.swift",
+      "line": 29,
+      "symbol": "ChampionsEndpoint.Response",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/ChampionEndpoint.swift",
+      "line": 30,
+      "symbol": "ChampionsEndpoint.base",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/ChampionEndpoint.swift",
+      "line": 31,
+      "symbol": "ChampionsEndpoint.endpoint",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/ChampionEndpoint.swift",
+      "line": 47,
+      "symbol": "Client.getChampion(by:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/ChampionEndpoint.swift",
+      "line": 50,
+      "symbol": "Client.getChampions(by:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/GameEndpoint.swift",
+      "line": 11,
+      "symbol": "GameEndpoint",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/GameEndpoint.swift",
+      "line": 12,
+      "symbol": "GameEndpoint.Response",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/GameEndpoint.swift",
+      "line": 13,
+      "symbol": "GameEndpoint.base",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/GameEndpoint.swift",
+      "line": 14,
+      "symbol": "GameEndpoint.endpoint",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/GameEndpoint.swift",
+      "line": 28,
+      "symbol": "GamesEndpoint",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/GameEndpoint.swift",
+      "line": 29,
+      "symbol": "GamesEndpoint.Response",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/GameEndpoint.swift",
+      "line": 30,
+      "symbol": "GamesEndpoint.base",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/GameEndpoint.swift",
+      "line": 31,
+      "symbol": "GamesEndpoint.endpoint",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/GameEndpoint.swift",
+      "line": 45,
+      "symbol": "GameEventsEndpoint",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/GameEndpoint.swift",
+      "line": 46,
+      "symbol": "GameEventsEndpoint.Response",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/GameEndpoint.swift",
+      "line": 47,
+      "symbol": "GameEventsEndpoint.base",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/GameEndpoint.swift",
+      "line": 48,
+      "symbol": "GameEventsEndpoint.endpoint",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/GameEndpoint.swift",
+      "line": 62,
+      "symbol": "GameFramesEndpoint",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/GameEndpoint.swift",
+      "line": 63,
+      "symbol": "GameFramesEndpoint.Response",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/GameEndpoint.swift",
+      "line": 64,
+      "symbol": "GameFramesEndpoint.base",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/GameEndpoint.swift",
+      "line": 65,
+      "symbol": "GameFramesEndpoint.endpoint",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/GameEndpoint.swift",
+      "line": 81,
+      "symbol": "Client.getGame(by:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/GameEndpoint.swift",
+      "line": 84,
+      "symbol": "Client.getGames(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/GameEndpoint.swift",
+      "line": 87,
+      "symbol": "Client.getEvents(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/GameEndpoint.swift",
+      "line": 90,
+      "symbol": "Client.getFrames(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/ItemEndpoint.swift",
+      "line": 11,
+      "symbol": "ItemEndpoint",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/ItemEndpoint.swift",
+      "line": 12,
+      "symbol": "ItemEndpoint.Response",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/ItemEndpoint.swift",
+      "line": 13,
+      "symbol": "ItemEndpoint.base",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/ItemEndpoint.swift",
+      "line": 14,
+      "symbol": "ItemEndpoint.endpoint",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/ItemEndpoint.swift",
+      "line": 31,
+      "symbol": "Client.getItems()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/LeagueEndpoint.swift",
+      "line": 11,
+      "symbol": "LeagueEndpoint",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/LeagueEndpoint.swift",
+      "line": 12,
+      "symbol": "LeagueEndpoint.Response",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/LeagueEndpoint.swift",
+      "line": 13,
+      "symbol": "LeagueEndpoint.base",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/LeagueEndpoint.swift",
+      "line": 14,
+      "symbol": "LeagueEndpoint.endpoint",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/LeagueEndpoint.swift",
+      "line": 18,
+      "symbol": "Client.getLeagues()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/MatchEndpoint.swift",
+      "line": 11,
+      "symbol": "MatchEndpoint",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/MatchEndpoint.swift",
+      "line": 12,
+      "symbol": "MatchEndpoint.Response",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/MatchEndpoint.swift",
+      "line": 13,
+      "symbol": "MatchEndpoint.base",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/MatchEndpoint.swift",
+      "line": 14,
+      "symbol": "MatchEndpoint.endpoint",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/MatchEndpoint.swift",
+      "line": 47,
+      "symbol": "Client.getMatches(leagueID:seriesID:tournamentID:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/MatchEndpoint.swift",
+      "line": 50,
+      "symbol": "Client.getPastMatches(leagueID:seriesID:tournamentID:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/MatchEndpoint.swift",
+      "line": 53,
+      "symbol": "Client.getRunningMatches(leagueID:seriesID:tournamentID:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/MatchEndpoint.swift",
+      "line": 56,
+      "symbol": "Client.getUpcomingMatches(leagueID:seriesID:tournamentID:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/PlayerEndpoint.swift",
+      "line": 11,
+      "symbol": "PlayerEndpoint",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/PlayerEndpoint.swift",
+      "line": 12,
+      "symbol": "PlayerEndpoint.Response",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/PlayerEndpoint.swift",
+      "line": 13,
+      "symbol": "PlayerEndpoint.base",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/PlayerEndpoint.swift",
+      "line": 14,
+      "symbol": "PlayerEndpoint.endpoint",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/PlayerEndpoint.swift",
+      "line": 36,
+      "symbol": "Client.getPlayers(by:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/PlayerEndpoint.swift",
+      "line": 39,
+      "symbol": "Client.getPlayersForTournament(by:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/PlayerEndpoint.swift",
+      "line": 42,
+      "symbol": "Client.getPlayersForSeries(by:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/SeriesEndpoint.swift",
+      "line": 11,
+      "symbol": "SeriesEndpoint",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/SeriesEndpoint.swift",
+      "line": 12,
+      "symbol": "SeriesEndpoint.Response",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/SeriesEndpoint.swift",
+      "line": 13,
+      "symbol": "SeriesEndpoint.base",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/SeriesEndpoint.swift",
+      "line": 14,
+      "symbol": "SeriesEndpoint.endpoint",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/SeriesEndpoint.swift",
+      "line": 45,
+      "symbol": "Client.getAllSeries(leagueID:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/SeriesEndpoint.swift",
+      "line": 48,
+      "symbol": "Client.getPastSeries(leagueID:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/SeriesEndpoint.swift",
+      "line": 51,
+      "symbol": "Client.getRunningSeries(leagueID:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/SeriesEndpoint.swift",
+      "line": 54,
+      "symbol": "Client.getUpcomingSeries(leagueID:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/StatsEndpoint.swift",
+      "line": 11,
+      "symbol": "PlayerStatsEndpoint",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/StatsEndpoint.swift",
+      "line": 12,
+      "symbol": "PlayerStatsEndpoint.Response",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/StatsEndpoint.swift",
+      "line": 13,
+      "symbol": "PlayerStatsEndpoint.base",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/StatsEndpoint.swift",
+      "line": 14,
+      "symbol": "PlayerStatsEndpoint.endpoint",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/StatsEndpoint.swift",
+      "line": 34,
+      "symbol": "TeamStatsEndpoint",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/StatsEndpoint.swift",
+      "line": 35,
+      "symbol": "TeamStatsEndpoint.Response",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/StatsEndpoint.swift",
+      "line": 36,
+      "symbol": "TeamStatsEndpoint.base",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/StatsEndpoint.swift",
+      "line": 37,
+      "symbol": "TeamStatsEndpoint.endpoint",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/StatsEndpoint.swift",
+      "line": 58,
+      "symbol": "Client.getPlayerStats(player:series:tournament:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/StatsEndpoint.swift",
+      "line": 63,
+      "symbol": "Client.getTeamStats(team:series:tournament:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/TeamsEndpoint.swift",
+      "line": 11,
+      "symbol": "TeamsEndpoint",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/TeamsEndpoint.swift",
+      "line": 12,
+      "symbol": "TeamsEndpoint.Response",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/TeamsEndpoint.swift",
+      "line": 13,
+      "symbol": "TeamsEndpoint.base",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/TeamsEndpoint.swift",
+      "line": 14,
+      "symbol": "TeamsEndpoint.endpoint",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/TeamsEndpoint.swift",
+      "line": 35,
+      "symbol": "Client.getTeams()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/TeamsEndpoint.swift",
+      "line": 38,
+      "symbol": "Client.getTeamsForSeries(by:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Endpoints/TeamsEndpoint.swift",
+      "line": 41,
+      "symbol": "Client.getTeamsForTournament(by:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/CommonTypes.swift",
+      "line": 12,
+      "symbol": "OpponentType.Player",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/CommonTypes.swift",
+      "line": 12,
+      "symbol": "OpponentType.Team",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/CommonTypes.swift",
+      "line": 18,
+      "symbol": "Opponent",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/CommonTypes.swift",
+      "line": 19,
+      "symbol": "Opponent.type",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/CommonTypes.swift",
+      "line": 20,
+      "symbol": "Opponent.opponent",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/CommonTypes.swift",
+      "line": 37,
+      "symbol": "Winner",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/CommonTypes.swift",
+      "line": 38,
+      "symbol": "Winner.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/CommonTypes.swift",
+      "line": 39,
+      "symbol": "Winner.type",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/CommonTypes.swift",
+      "line": 42,
+      "symbol": "TeamColor",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/CommonTypes.swift",
+      "line": 43,
+      "symbol": "TeamColor.blue",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/CommonTypes.swift",
+      "line": 43,
+      "symbol": "TeamColor.red",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 10,
+      "symbol": "GameEvent",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 11,
+      "symbol": "GameEvent.game_id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 12,
+      "symbol": "GameEvent.ingame_timestamp",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 13,
+      "symbol": "GameEvent.is_first",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 14,
+      "symbol": "GameEvent.match_id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 15,
+      "symbol": "GameEvent.payload",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 16,
+      "symbol": "GameEvent.tournament_id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 17,
+      "symbol": "GameEvent.type",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 20,
+      "symbol": "GameFrame",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 21,
+      "symbol": "GameFrame.blue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 22,
+      "symbol": "GameFrame.current_timestamp",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 23,
+      "symbol": "GameFrame.game_id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 24,
+      "symbol": "GameFrame.match_id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 25,
+      "symbol": "GameFrame.red",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 26,
+      "symbol": "GameFrame.tournament_id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 29,
+      "symbol": "EventPayload",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 30,
+      "symbol": "EventPayload.assists",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 31,
+      "symbol": "EventPayload.killer",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 32,
+      "symbol": "EventPayload.victim",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 35,
+      "symbol": "EventAssist",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 36,
+      "symbol": "EventAssist.champion",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 37,
+      "symbol": "EventAssist.player_id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 38,
+      "symbol": "EventAssist.player_name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 39,
+      "symbol": "EventAssist.side",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 42,
+      "symbol": "EventKillerObjectType",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 43,
+      "symbol": "EventKiller",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 44,
+      "symbol": "EventKiller.object",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 45,
+      "symbol": "EventKiller.type",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 67,
+      "symbol": "EventDrake",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 68,
+      "symbol": "EventDrake.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 69,
+      "symbol": "EventDrake.type",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 72,
+      "symbol": "DrakeName",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 73,
+      "symbol": "DrakeName.cloud",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 74,
+      "symbol": "DrakeName.elder",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 75,
+      "symbol": "DrakeName.infernal",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 76,
+      "symbol": "DrakeName.mountain",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 77,
+      "symbol": "DrakeName.ocean",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 79,
+      "symbol": "DrakeType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 80,
+      "symbol": "DrakeType.cloud",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 80,
+      "symbol": "DrakeType.elder",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 80,
+      "symbol": "DrakeType.infernal",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 80,
+      "symbol": "DrakeType.mountain",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 80,
+      "symbol": "DrakeType.ocean",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 83,
+      "symbol": "EventHerald",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 84,
+      "symbol": "EventHerald.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 87,
+      "symbol": "EventMinion",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 88,
+      "symbol": "EventMinion.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 89,
+      "symbol": "EventMinion.side",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 92,
+      "symbol": "EventNashor",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 93,
+      "symbol": "EventNashor.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 96,
+      "symbol": "EventTower",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 97,
+      "symbol": "EventTower.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 98,
+      "symbol": "EventTower.side",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 101,
+      "symbol": "EventNeutralMinion",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 102,
+      "symbol": "EventNeutralMinion.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 104,
+      "symbol": "EventMinionName",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 105,
+      "symbol": "EventMinionName.corbin",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 106,
+      "symbol": "EventMinionName.golem",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 107,
+      "symbol": "EventMinionName.wolf",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 108,
+      "symbol": "EventMinionName.blue",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 109,
+      "symbol": "EventMinionName.gromp",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 110,
+      "symbol": "EventMinionName.red",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 111,
+      "symbol": "EventMinionName.smallcorbin",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 112,
+      "symbol": "EventMinionName.smallgolem",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 113,
+      "symbol": "EventMinionName.smallwolf",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 116,
+      "symbol": "EventKillerType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 117,
+      "symbol": "EventKillerType.baron_nashor",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 117,
+      "symbol": "EventKillerType.drake",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 117,
+      "symbol": "EventKillerType.herald",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 117,
+      "symbol": "EventKillerType.minion",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 117,
+      "symbol": "EventKillerType.neutral_minion",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 117,
+      "symbol": "EventKillerType.player",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 117,
+      "symbol": "EventKillerType.tower",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 117,
+      "symbol": "EventKillerType.unknown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 120,
+      "symbol": "EventVictimObjectType",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 121,
+      "symbol": "EventVictim",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 122,
+      "symbol": "EventVictim.object",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 123,
+      "symbol": "EventVictim.type",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 142,
+      "symbol": "EventInhibitor",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 143,
+      "symbol": "EventInhibitor.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 144,
+      "symbol": "EventInhibitor.side",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 147,
+      "symbol": "EventVictimType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 148,
+      "symbol": "EventVictimType.baron_nashor",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 148,
+      "symbol": "EventVictimType.drake",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 148,
+      "symbol": "EventVictimType.inhibitor",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 148,
+      "symbol": "EventVictimType.player",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 148,
+      "symbol": "EventVictimType.tower",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 151,
+      "symbol": "EventType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 152,
+      "symbol": "EventType.baron_nashor_kill",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 152,
+      "symbol": "EventType.drake_kill",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 152,
+      "symbol": "EventType.inhibitor_kill",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 152,
+      "symbol": "EventType.player_kill",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 152,
+      "symbol": "EventType.suicide",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/GameEvent.swift",
+      "line": 152,
+      "symbol": "EventType.tower_kill",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/Videogame.swift",
+      "line": 10,
+      "symbol": "Videogame",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/Videogame.swift",
+      "line": 11,
+      "symbol": "Videogame.current_version",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/Videogame.swift",
+      "line": 12,
+      "symbol": "Videogame.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/Videogame.swift",
+      "line": 13,
+      "symbol": "Videogame.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/Videogame.swift",
+      "line": 14,
+      "symbol": "Videogame.slug",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/Videogame.swift",
+      "line": 17,
+      "symbol": "ShortVideogameVersion",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/Videogame.swift",
+      "line": 18,
+      "symbol": "ShortVideogameVersion.current",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Games/Videogame.swift",
+      "line": 19,
+      "symbol": "ShortVideogameVersion.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Items/Item.swift",
+      "line": 10,
+      "symbol": "Item",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Items/Item.swift",
+      "line": 11,
+      "symbol": "Item.flat_armor_mod",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Items/Item.swift",
+      "line": 12,
+      "symbol": "Item.flat_crit_change_mod",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Items/Item.swift",
+      "line": 13,
+      "symbol": "Item.flat_hp_pool_mod",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Items/Item.swift",
+      "line": 14,
+      "symbol": "Item.flat_hp_regen_mod",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Items/Item.swift",
+      "line": 15,
+      "symbol": "Item.flat_magic_damage_mod",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Items/Item.swift",
+      "line": 16,
+      "symbol": "Item.flat_movement_speed_mod",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Items/Item.swift",
+      "line": 17,
+      "symbol": "Item.flat_mp_pool_mod",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Items/Item.swift",
+      "line": 18,
+      "symbol": "Item.flat_mp_regen_mod",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Items/Item.swift",
+      "line": 19,
+      "symbol": "Item.flat_physical_damage_mod",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Items/Item.swift",
+      "line": 20,
+      "symbol": "Item.flat_spell_block_mod",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Items/Item.swift",
+      "line": 21,
+      "symbol": "Item.gold_base",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Items/Item.swift",
+      "line": 22,
+      "symbol": "Item.gold_purchasable",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Items/Item.swift",
+      "line": 23,
+      "symbol": "Item.gold_sell",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Items/Item.swift",
+      "line": 24,
+      "symbol": "Item.gold_total",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Items/Item.swift",
+      "line": 25,
+      "symbol": "Item.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Items/Item.swift",
+      "line": 26,
+      "symbol": "Item.image_url",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Items/Item.swift",
+      "line": 27,
+      "symbol": "Item.is_trinket",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Items/Item.swift",
+      "line": 28,
+      "symbol": "Item.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Items/Item.swift",
+      "line": 29,
+      "symbol": "Item.percent_attack_speed_mod",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Items/Item.swift",
+      "line": 30,
+      "symbol": "Item.percent_life_steal_mod",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Items/Item.swift",
+      "line": 31,
+      "symbol": "Item.percent_movement_speed_mod",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Items/Item.swift",
+      "line": 32,
+      "symbol": "Item.videogame_versions",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Items/Item.swift",
+      "line": 35,
+      "symbol": "BaseItem",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Items/Item.swift",
+      "line": 36,
+      "symbol": "BaseItem.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Items/Item.swift",
+      "line": 37,
+      "symbol": "BaseItem.image_url",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Items/Item.swift",
+      "line": 38,
+      "symbol": "BaseItem.is_trinket",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Items/Item.swift",
+      "line": 39,
+      "symbol": "BaseItem.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Leagues/League.swift",
+      "line": 17,
+      "symbol": "League.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Leagues/League.swift",
+      "line": 18,
+      "symbol": "League.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Leagues/League.swift",
+      "line": 19,
+      "symbol": "League.slug",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Leagues/League.swift",
+      "line": 20,
+      "symbol": "League.game",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Leagues/League.swift",
+      "line": 22,
+      "symbol": "League.url",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Leagues/League.swift",
+      "line": 23,
+      "symbol": "League.imageURL",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Leagues/League.swift",
+      "line": 24,
+      "symbol": "League.isLiveSupported",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Leagues/League.swift",
+      "line": 26,
+      "symbol": "League.lastModified",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Leagues/League.swift",
+      "line": 28,
+      "symbol": "League.series",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Leagues/League.swift",
+      "line": 30,
+      "symbol": "League.supported",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Leagues/League.swift",
+      "line": 41,
+      "symbol": "BaseLeague",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Leagues/League.swift",
+      "line": 42,
+      "symbol": "BaseLeague.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Leagues/League.swift",
+      "line": 43,
+      "symbol": "BaseLeague.image_url",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Leagues/League.swift",
+      "line": 44,
+      "symbol": "BaseLeague.live_supported",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Leagues/League.swift",
+      "line": 45,
+      "symbol": "BaseLeague.modified_at",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Leagues/League.swift",
+      "line": 46,
+      "symbol": "BaseLeague.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Leagues/League.swift",
+      "line": 47,
+      "symbol": "BaseLeague.slug",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Leagues/League.swift",
+      "line": 48,
+      "symbol": "BaseLeague.url",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Leagues/SupportedLeague.swift",
+      "line": 10,
+      "symbol": "SupportedLeague",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Leagues/SupportedLeague.swift",
+      "line": 68,
+      "symbol": "SupportedLeague.euchallenger",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Leagues/SupportedLeague.swift",
+      "line": 116,
+      "symbol": "SupportedLeague.opl",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Masteries/Mastery.swift",
+      "line": 10,
+      "symbol": "Mastery",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Masteries/Mastery.swift",
+      "line": 11,
+      "symbol": "Mastery.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Masteries/Mastery.swift",
+      "line": 12,
+      "symbol": "Mastery.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/FullGameMatch.swift",
+      "line": 10,
+      "symbol": "FullGameMatch",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/FullGameMatch.swift",
+      "line": 11,
+      "symbol": "FullGameMatch.begin_at",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/FullGameMatch.swift",
+      "line": 12,
+      "symbol": "FullGameMatch.draw",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/FullGameMatch.swift",
+      "line": 13,
+      "symbol": "FullGameMatch.games",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/FullGameMatch.swift",
+      "line": 14,
+      "symbol": "FullGameMatch.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/FullGameMatch.swift",
+      "line": 15,
+      "symbol": "FullGameMatch.league",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/FullGameMatch.swift",
+      "line": 16,
+      "symbol": "FullGameMatch.league_id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/FullGameMatch.swift",
+      "line": 17,
+      "symbol": "FullGameMatch.live",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/FullGameMatch.swift",
+      "line": 18,
+      "symbol": "FullGameMatch.match_type",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/FullGameMatch.swift",
+      "line": 19,
+      "symbol": "FullGameMatch.modified_at",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/FullGameMatch.swift",
+      "line": 20,
+      "symbol": "FullGameMatch.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/FullGameMatch.swift",
+      "line": 21,
+      "symbol": "FullGameMatch.number_of_games",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/FullGameMatch.swift",
+      "line": 22,
+      "symbol": "FullGameMatch.opponents",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/FullGameMatch.swift",
+      "line": 23,
+      "symbol": "FullGameMatch.results",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/FullGameMatch.swift",
+      "line": 24,
+      "symbol": "FullGameMatch.serie",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/FullGameMatch.swift",
+      "line": 25,
+      "symbol": "FullGameMatch.serie_id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/FullGameMatch.swift",
+      "line": 26,
+      "symbol": "FullGameMatch.slug",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/FullGameMatch.swift",
+      "line": 27,
+      "symbol": "FullGameMatch.status",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/FullGameMatch.swift",
+      "line": 28,
+      "symbol": "FullGameMatch.tournament",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/FullGameMatch.swift",
+      "line": 29,
+      "symbol": "FullGameMatch.tournament_id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/FullGameMatch.swift",
+      "line": 30,
+      "symbol": "FullGameMatch.videogame",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/FullGameMatch.swift",
+      "line": 31,
+      "symbol": "FullGameMatch.videogame_version",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/FullGameMatch.swift",
+      "line": 32,
+      "symbol": "FullGameMatch.winner",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/FullGameMatch.swift",
+      "line": 33,
+      "symbol": "FullGameMatch.winner_id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/FullGameMatch.swift",
+      "line": 36,
+      "symbol": "MatchLive",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/FullGameMatch.swift",
+      "line": 37,
+      "symbol": "MatchLive.opens_at",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/FullGameMatch.swift",
+      "line": 38,
+      "symbol": "MatchLive.supported",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/FullGameMatch.swift",
+      "line": 39,
+      "symbol": "MatchLive.url",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/FullGameMatch.swift",
+      "line": 42,
+      "symbol": "MatchType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/FullGameMatch.swift",
+      "line": 43,
+      "symbol": "MatchType.best_of",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/FullGameMatch.swift",
+      "line": 43,
+      "symbol": "MatchType.custom",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/FullGameMatch.swift",
+      "line": 43,
+      "symbol": "MatchType.ow_best_of",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/FullGameMatch.swift",
+      "line": 46,
+      "symbol": "MatchTeamResult",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/FullGameMatch.swift",
+      "line": 47,
+      "symbol": "MatchTeamResult.score",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/FullGameMatch.swift",
+      "line": 48,
+      "symbol": "MatchTeamResult.team_id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/FullGameMatch.swift",
+      "line": 51,
+      "symbol": "MatchStatus",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/FullGameMatch.swift",
+      "line": 52,
+      "symbol": "MatchStatus.finished",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/FullGameMatch.swift",
+      "line": 52,
+      "symbol": "MatchStatus.not_started",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/FullGameMatch.swift",
+      "line": 52,
+      "symbol": "MatchStatus.running",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/Match.swift",
+      "line": 10,
+      "symbol": "Match",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/Match.swift",
+      "line": 11,
+      "symbol": "Match.begin_at",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/Match.swift",
+      "line": 12,
+      "symbol": "Match.draw",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/Match.swift",
+      "line": 13,
+      "symbol": "Match.games",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/Match.swift",
+      "line": 14,
+      "symbol": "Match.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/Match.swift",
+      "line": 15,
+      "symbol": "Match.league",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/Match.swift",
+      "line": 16,
+      "symbol": "Match.league_id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/Match.swift",
+      "line": 17,
+      "symbol": "Match.live",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/Match.swift",
+      "line": 18,
+      "symbol": "Match.match_type",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/Match.swift",
+      "line": 19,
+      "symbol": "Match.modified_at",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/Match.swift",
+      "line": 20,
+      "symbol": "Match.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/Match.swift",
+      "line": 21,
+      "symbol": "Match.number_of_games",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/Match.swift",
+      "line": 22,
+      "symbol": "Match.opponents",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/Match.swift",
+      "line": 23,
+      "symbol": "Match.results",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/Match.swift",
+      "line": 24,
+      "symbol": "Match.serie",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/Match.swift",
+      "line": 25,
+      "symbol": "Match.serie_id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/Match.swift",
+      "line": 26,
+      "symbol": "Match.slug",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/Match.swift",
+      "line": 27,
+      "symbol": "Match.status",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/Match.swift",
+      "line": 28,
+      "symbol": "Match.tournament",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/Match.swift",
+      "line": 29,
+      "symbol": "Match.tournament_id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/Match.swift",
+      "line": 30,
+      "symbol": "Match.videogame",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/Match.swift",
+      "line": 31,
+      "symbol": "Match.winner",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/Match.swift",
+      "line": 32,
+      "symbol": "Match.winner_id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/Match.swift",
+      "line": 35,
+      "symbol": "BaseMatch",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/Match.swift",
+      "line": 36,
+      "symbol": "BaseMatch.begin_at",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/Match.swift",
+      "line": 37,
+      "symbol": "BaseMatch.draw",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/Match.swift",
+      "line": 38,
+      "symbol": "BaseMatch.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/Match.swift",
+      "line": 39,
+      "symbol": "BaseMatch.live",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/Match.swift",
+      "line": 40,
+      "symbol": "BaseMatch.match_type",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/Match.swift",
+      "line": 41,
+      "symbol": "BaseMatch.modified_at",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/Match.swift",
+      "line": 42,
+      "symbol": "BaseMatch.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/Match.swift",
+      "line": 43,
+      "symbol": "BaseMatch.number_of_games",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/Match.swift",
+      "line": 44,
+      "symbol": "BaseMatch.slug",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/Match.swift",
+      "line": 45,
+      "symbol": "BaseMatch.status",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/Match.swift",
+      "line": 46,
+      "symbol": "BaseMatch.tournament_id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Matches/Match.swift",
+      "line": 47,
+      "symbol": "BaseMatch.winner_id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 10,
+      "symbol": "GamePlayer",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 11,
+      "symbol": "GamePlayer.assists",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 12,
+      "symbol": "GamePlayer.champion",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 13,
+      "symbol": "GamePlayer.deaths",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 14,
+      "symbol": "GamePlayer.flags",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 15,
+      "symbol": "GamePlayer.game_id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 16,
+      "symbol": "GamePlayer.gold_earned",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 17,
+      "symbol": "GamePlayer.gold_spent",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 18,
+      "symbol": "GamePlayer.items",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 19,
+      "symbol": "GamePlayer.kills",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 20,
+      "symbol": "GamePlayer.kills_counters",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 21,
+      "symbol": "GamePlayer.kills_series",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 22,
+      "symbol": "GamePlayer.largest_critical_strike",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 23,
+      "symbol": "GamePlayer.largest_killing_spree",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 24,
+      "symbol": "GamePlayer.largest_multi_kill",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 25,
+      "symbol": "GamePlayer.level",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 26,
+      "symbol": "GamePlayer.magic_damage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 27,
+      "symbol": "GamePlayer.masteries",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 28,
+      "symbol": "GamePlayer.minions_killed",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 29,
+      "symbol": "GamePlayer.opponent",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 30,
+      "symbol": "GamePlayer.physical_damage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 31,
+      "symbol": "GamePlayer.player",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 32,
+      "symbol": "GamePlayer.player_id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 33,
+      "symbol": "GamePlayer.role",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 34,
+      "symbol": "GamePlayer.runes",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 35,
+      "symbol": "GamePlayer.spells",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 36,
+      "symbol": "GamePlayer.team",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 37,
+      "symbol": "GamePlayer.total_damage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 38,
+      "symbol": "GamePlayer.total_heal",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 39,
+      "symbol": "GamePlayer.total_time_crowd_control_dealt",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 40,
+      "symbol": "GamePlayer.total_units_healed",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 41,
+      "symbol": "GamePlayer.true_damage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 42,
+      "symbol": "GamePlayer.wards",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 43,
+      "symbol": "GamePlayer.wards_placed",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 46,
+      "symbol": "Flag",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 55,
+      "symbol": "KillsCounters",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 56,
+      "symbol": "KillsCounters.inhibitors",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 57,
+      "symbol": "KillsCounters.neutral_minions",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 58,
+      "symbol": "KillsCounters.neutral_minions_enemy_jungle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 59,
+      "symbol": "KillsCounters.neutral_minions_team_jungle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 60,
+      "symbol": "KillsCounters.players",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 61,
+      "symbol": "KillsCounters.turrets",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 62,
+      "symbol": "KillsCounters.wards",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 65,
+      "symbol": "KillsSeries",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 66,
+      "symbol": "KillsSeries.double_kills",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 67,
+      "symbol": "KillsSeries.triple_kills",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 68,
+      "symbol": "KillsSeries.quadra_kills",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 69,
+      "symbol": "KillsSeries.penta_kills",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 72,
+      "symbol": "MagicDamage",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 73,
+      "symbol": "MagicDamage.dealt",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 74,
+      "symbol": "MagicDamage.dealt_to_champions",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 77,
+      "symbol": "PhysicalDamage",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 78,
+      "symbol": "PhysicalDamage.dealt",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 79,
+      "symbol": "PhysicalDamage.dealt_to_champions",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 80,
+      "symbol": "PhysicalDamage.taken",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 83,
+      "symbol": "Role",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 84,
+      "symbol": "Role.adc",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 84,
+      "symbol": "Role.jun",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 84,
+      "symbol": "Role.mid",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 84,
+      "symbol": "Role.sup",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 84,
+      "symbol": "Role.top",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 95,
+      "symbol": "Role.<(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 98,
+      "symbol": "Role.>(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 106,
+      "symbol": "TotalDamage",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 107,
+      "symbol": "TotalDamage.dealt",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 108,
+      "symbol": "TotalDamage.dealt_to_champions",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 109,
+      "symbol": "TotalDamage.taken",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 112,
+      "symbol": "TrueDamage",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 113,
+      "symbol": "TrueDamage.dealt",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 114,
+      "symbol": "TrueDamage.dealt_to_champions",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 115,
+      "symbol": "TrueDamage.taken",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 118,
+      "symbol": "Ward",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 119,
+      "symbol": "Ward.placed",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 120,
+      "symbol": "Ward.sight_wards_bought_in_game",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/GamePlayer.swift",
+      "line": 121,
+      "symbol": "Ward.vision_wards_bought_in_game",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/Player.swift",
+      "line": 10,
+      "symbol": "Player",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/Player.swift",
+      "line": 11,
+      "symbol": "Player.current_team",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/Player.swift",
+      "line": 12,
+      "symbol": "Player.current_videogame",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/Player.swift",
+      "line": 13,
+      "symbol": "Player.first_name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/Player.swift",
+      "line": 14,
+      "symbol": "Player.hometown",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/Player.swift",
+      "line": 15,
+      "symbol": "Player.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/Player.swift",
+      "line": 16,
+      "symbol": "Player.image_url",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/Player.swift",
+      "line": 17,
+      "symbol": "Player.last_name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/Player.swift",
+      "line": 18,
+      "symbol": "Player.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/Player.swift",
+      "line": 19,
+      "symbol": "Player.role",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/Player.swift",
+      "line": 20,
+      "symbol": "Player.slug",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/Player.swift",
+      "line": 23,
+      "symbol": "BasePlayer",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/Player.swift",
+      "line": 24,
+      "symbol": "BasePlayer.first_name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/Player.swift",
+      "line": 25,
+      "symbol": "BasePlayer.hometown",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/Player.swift",
+      "line": 26,
+      "symbol": "BasePlayer.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/Player.swift",
+      "line": 27,
+      "symbol": "BasePlayer.image_url",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/Player.swift",
+      "line": 28,
+      "symbol": "BasePlayer.last_name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/Player.swift",
+      "line": 29,
+      "symbol": "BasePlayer.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/Player.swift",
+      "line": 30,
+      "symbol": "BasePlayer.role",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/Player.swift",
+      "line": 31,
+      "symbol": "BasePlayer.slug",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/Player.swift",
+      "line": 34,
+      "symbol": "EventPlayer",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/Player.swift",
+      "line": 35,
+      "symbol": "EventPlayer.champion",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/Player.swift",
+      "line": 36,
+      "symbol": "EventPlayer.player_id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/Player.swift",
+      "line": 37,
+      "symbol": "EventPlayer.player_name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Players/Player.swift",
+      "line": 38,
+      "symbol": "EventPlayer.side",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Runes/Rune.swift",
+      "line": 10,
+      "symbol": "Rune",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Runes/Rune.swift",
+      "line": 11,
+      "symbol": "Rune.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Runes/Rune.swift",
+      "line": 12,
+      "symbol": "Rune.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Series/Series.swift",
+      "line": 10,
+      "symbol": "Serie",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Series/Series.swift",
+      "line": 11,
+      "symbol": "Serie.begin_at",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Series/Series.swift",
+      "line": 12,
+      "symbol": "Serie.description",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Series/Series.swift",
+      "line": 13,
+      "symbol": "Serie.end_at",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Series/Series.swift",
+      "line": 14,
+      "symbol": "Serie.full_name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Series/Series.swift",
+      "line": 15,
+      "symbol": "Serie.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Series/Series.swift",
+      "line": 16,
+      "symbol": "Serie.league",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Series/Series.swift",
+      "line": 17,
+      "symbol": "Serie.league_id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Series/Series.swift",
+      "line": 18,
+      "symbol": "Serie.modified_at",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Series/Series.swift",
+      "line": 19,
+      "symbol": "Serie.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Series/Series.swift",
+      "line": 20,
+      "symbol": "Serie.prizepool",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Series/Series.swift",
+      "line": 21,
+      "symbol": "Serie.season",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Series/Series.swift",
+      "line": 22,
+      "symbol": "Serie.slug",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Series/Series.swift",
+      "line": 23,
+      "symbol": "Serie.tournaments",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Series/Series.swift",
+      "line": 24,
+      "symbol": "Serie.videogame",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Series/Series.swift",
+      "line": 25,
+      "symbol": "Serie.winner_id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Series/Series.swift",
+      "line": 26,
+      "symbol": "Serie.winner_type",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Series/Series.swift",
+      "line": 27,
+      "symbol": "Serie.year",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Series/Series.swift",
+      "line": 30,
+      "symbol": "BaseSerie",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Series/Series.swift",
+      "line": 31,
+      "symbol": "BaseSerie.begin_at",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Series/Series.swift",
+      "line": 32,
+      "symbol": "BaseSerie.description",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Series/Series.swift",
+      "line": 33,
+      "symbol": "BaseSerie.end_at",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Series/Series.swift",
+      "line": 34,
+      "symbol": "BaseSerie.full_name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Series/Series.swift",
+      "line": 35,
+      "symbol": "BaseSerie.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Series/Series.swift",
+      "line": 36,
+      "symbol": "BaseSerie.league_id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Series/Series.swift",
+      "line": 37,
+      "symbol": "BaseSerie.modified_at",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Series/Series.swift",
+      "line": 38,
+      "symbol": "BaseSerie.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Series/Series.swift",
+      "line": 39,
+      "symbol": "BaseSerie.prizepool",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Series/Series.swift",
+      "line": 40,
+      "symbol": "BaseSerie.season",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Series/Series.swift",
+      "line": 41,
+      "symbol": "BaseSerie.slug",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Series/Series.swift",
+      "line": 42,
+      "symbol": "BaseSerie.winner_id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Series/Series.swift",
+      "line": 43,
+      "symbol": "BaseSerie.winner_type",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Series/Series.swift",
+      "line": 44,
+      "symbol": "BaseSerie.year",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Spells/Spell.swift",
+      "line": 10,
+      "symbol": "Spell",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Spells/Spell.swift",
+      "line": 11,
+      "symbol": "Spell.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Spells/Spell.swift",
+      "line": 12,
+      "symbol": "Spell.image_url",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Spells/Spell.swift",
+      "line": 13,
+      "symbol": "Spell.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 10,
+      "symbol": "StatsPlayer",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 11,
+      "symbol": "StatsPlayer.current_team",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 12,
+      "symbol": "StatsPlayer.current_videogame",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 13,
+      "symbol": "StatsPlayer.favorite_champions",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 14,
+      "symbol": "StatsPlayer.first_name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 15,
+      "symbol": "StatsPlayer.hometown",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 16,
+      "symbol": "StatsPlayer.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 17,
+      "symbol": "StatsPlayer.image_url",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 18,
+      "symbol": "StatsPlayer.last_games",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 19,
+      "symbol": "StatsPlayer.last_name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 20,
+      "symbol": "StatsPlayer.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 21,
+      "symbol": "StatsPlayer.role",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 22,
+      "symbol": "StatsPlayer.slug",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 23,
+      "symbol": "StatsPlayer.stats",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 24,
+      "symbol": "StatsPlayer.teams",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 27,
+      "symbol": "StatsTeam",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 28,
+      "symbol": "StatsTeam.acronym",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 29,
+      "symbol": "StatsTeam.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 30,
+      "symbol": "StatsTeam.image_url",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 31,
+      "symbol": "StatsTeam.last_games",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 32,
+      "symbol": "StatsTeam.most_picked",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 33,
+      "symbol": "StatsTeam.most_banned",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 34,
+      "symbol": "StatsTeam.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 35,
+      "symbol": "StatsTeam.players",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 36,
+      "symbol": "StatsTeam.stats",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 39,
+      "symbol": "FavoriteChampion",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 40,
+      "symbol": "FavoriteChampion.champion",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 41,
+      "symbol": "FavoriteChampion.games_count",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 42,
+      "symbol": "FavoriteChampion.most_used_items",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 45,
+      "symbol": "UsedItem",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 46,
+      "symbol": "UsedItem.count",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 47,
+      "symbol": "UsedItem.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 48,
+      "symbol": "UsedItem.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 51,
+      "symbol": "PlayerBySerieStats",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 52,
+      "symbol": "PlayerBySerieStats.averages",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 53,
+      "symbol": "PlayerBySerieStats.games_count",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 54,
+      "symbol": "PlayerBySerieStats.serie",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 55,
+      "symbol": "PlayerBySerieStats.totals",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 58,
+      "symbol": "PlayerAverage",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 59,
+      "symbol": "PlayerAverage.assists",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 60,
+      "symbol": "PlayerAverage.deaths",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 61,
+      "symbol": "PlayerAverage.kills",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 62,
+      "symbol": "PlayerAverage.minions_killed",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 63,
+      "symbol": "PlayerAverage.wards_placed",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 66,
+      "symbol": "StatsTotal",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 67,
+      "symbol": "StatsTotal.games_lost",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 68,
+      "symbol": "StatsTotal.games_played",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 69,
+      "symbol": "StatsTotal.games_won",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 70,
+      "symbol": "StatsTotal.matches_lost",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 71,
+      "symbol": "StatsTotal.matches_played",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 72,
+      "symbol": "StatsTotal.matches_won",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 75,
+      "symbol": "TeamLastGame",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 76,
+      "symbol": "TeamLastGame.begin_at",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 77,
+      "symbol": "TeamLastGame.finished",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 78,
+      "symbol": "TeamLastGame.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 79,
+      "symbol": "TeamLastGame.length",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 80,
+      "symbol": "TeamLastGame.match_id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 81,
+      "symbol": "TeamLastGame.players",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 82,
+      "symbol": "TeamLastGame.position",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 83,
+      "symbol": "TeamLastGame.teams",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 84,
+      "symbol": "TeamLastGame.winner",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 85,
+      "symbol": "TeamLastGame.winner_type",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 88,
+      "symbol": "MostPickedOrBanned",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 89,
+      "symbol": "MostPickedOrBanned.count",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 90,
+      "symbol": "MostPickedOrBanned.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 93,
+      "symbol": "TeamBySerieStat",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 94,
+      "symbol": "TeamBySerieStat.averages",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 95,
+      "symbol": "TeamBySerieStat.games_count",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 96,
+      "symbol": "TeamBySerieStat.serie",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 97,
+      "symbol": "TeamBySerieStat.totals",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 100,
+      "symbol": "TeamAverage",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 101,
+      "symbol": "TeamAverage.assists",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 102,
+      "symbol": "TeamAverage.baron_kills",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 103,
+      "symbol": "TeamAverage.deaths",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 104,
+      "symbol": "TeamAverage.dragon_kills",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 105,
+      "symbol": "TeamAverage.gold_earned",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 106,
+      "symbol": "TeamAverage.herald_kill",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 107,
+      "symbol": "TeamAverage.inhibitor_kills",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 108,
+      "symbol": "TeamAverage.kills",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 109,
+      "symbol": "TeamAverage.ratios",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 110,
+      "symbol": "TeamAverage.total_minions_killed",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 111,
+      "symbol": "TeamAverage.tower_kills",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 112,
+      "symbol": "TeamAverage.wards_placed",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 115,
+      "symbol": "TeamRatio",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 116,
+      "symbol": "TeamRatio.first_baron",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 117,
+      "symbol": "TeamRatio.first_blood",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 118,
+      "symbol": "TeamRatio.first_dragon",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 119,
+      "symbol": "TeamRatio.first_inhibitor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 120,
+      "symbol": "TeamRatio.first_tower",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Stats/StatsObject.swift",
+      "line": 121,
+      "symbol": "TeamRatio.win",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/FrameTeam.swift",
+      "line": 10,
+      "symbol": "FrameTeam",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/FrameTeam.swift",
+      "line": 11,
+      "symbol": "FrameTeam.acronym",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/FrameTeam.swift",
+      "line": 12,
+      "symbol": "FrameTeam.drakes",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/FrameTeam.swift",
+      "line": 13,
+      "symbol": "FrameTeam.gold",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/FrameTeam.swift",
+      "line": 14,
+      "symbol": "FrameTeam.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/FrameTeam.swift",
+      "line": 15,
+      "symbol": "FrameTeam.inhibitors",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/FrameTeam.swift",
+      "line": 16,
+      "symbol": "FrameTeam.kills",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/FrameTeam.swift",
+      "line": 17,
+      "symbol": "FrameTeam.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/FrameTeam.swift",
+      "line": 18,
+      "symbol": "FrameTeam.nashors",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/FrameTeam.swift",
+      "line": 19,
+      "symbol": "FrameTeam.players",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/FrameTeam.swift",
+      "line": 20,
+      "symbol": "FrameTeam.score",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/FrameTeam.swift",
+      "line": 21,
+      "symbol": "FrameTeam.towers",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/FrameTeam.swift",
+      "line": 24,
+      "symbol": "PlayerRoles",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/FrameTeam.swift",
+      "line": 25,
+      "symbol": "PlayerRoles.adc",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/FrameTeam.swift",
+      "line": 26,
+      "symbol": "PlayerRoles.jun",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/FrameTeam.swift",
+      "line": 27,
+      "symbol": "PlayerRoles.mid",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/FrameTeam.swift",
+      "line": 28,
+      "symbol": "PlayerRoles.sup",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/FrameTeam.swift",
+      "line": 29,
+      "symbol": "PlayerRoles.top",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/FrameTeam.swift",
+      "line": 32,
+      "symbol": "PlayerRoleDetail",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/FrameTeam.swift",
+      "line": 33,
+      "symbol": "PlayerRoleDetail.assists",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/FrameTeam.swift",
+      "line": 34,
+      "symbol": "PlayerRoleDetail.champion",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/FrameTeam.swift",
+      "line": 35,
+      "symbol": "PlayerRoleDetail.cs",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/FrameTeam.swift",
+      "line": 36,
+      "symbol": "PlayerRoleDetail.deaths",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/FrameTeam.swift",
+      "line": 37,
+      "symbol": "PlayerRoleDetail.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/FrameTeam.swift",
+      "line": 38,
+      "symbol": "PlayerRoleDetail.kills",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/FrameTeam.swift",
+      "line": 39,
+      "symbol": "PlayerRoleDetail.level",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/FrameTeam.swift",
+      "line": 40,
+      "symbol": "PlayerRoleDetail.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/FrameTeam.swift",
+      "line": 41,
+      "symbol": "PlayerRoleDetail.summoner_spells",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/GameTeam.swift",
+      "line": 10,
+      "symbol": "GameTeam",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/GameTeam.swift",
+      "line": 11,
+      "symbol": "GameTeam.bans",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/GameTeam.swift",
+      "line": 12,
+      "symbol": "GameTeam.baron_kills",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/GameTeam.swift",
+      "line": 13,
+      "symbol": "GameTeam.color",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/GameTeam.swift",
+      "line": 14,
+      "symbol": "GameTeam.dragon_kills",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/GameTeam.swift",
+      "line": 15,
+      "symbol": "GameTeam.first_blood",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/GameTeam.swift",
+      "line": 16,
+      "symbol": "GameTeam.first_dragon",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/GameTeam.swift",
+      "line": 17,
+      "symbol": "GameTeam.first_inhibitor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/GameTeam.swift",
+      "line": 18,
+      "symbol": "GameTeam.first_tower",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/GameTeam.swift",
+      "line": 19,
+      "symbol": "GameTeam.gold_earned",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/GameTeam.swift",
+      "line": 20,
+      "symbol": "GameTeam.inhibitor_kills",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/GameTeam.swift",
+      "line": 21,
+      "symbol": "GameTeam.player_ids",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/GameTeam.swift",
+      "line": 22,
+      "symbol": "GameTeam.team",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/GameTeam.swift",
+      "line": 23,
+      "symbol": "GameTeam.tower_kills",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/Team.swift",
+      "line": 10,
+      "symbol": "Team",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/Team.swift",
+      "line": 11,
+      "symbol": "Team.acronym",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/Team.swift",
+      "line": 12,
+      "symbol": "Team.current_videogame",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/Team.swift",
+      "line": 13,
+      "symbol": "Team.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/Team.swift",
+      "line": 14,
+      "symbol": "Team.image_url",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/Team.swift",
+      "line": 15,
+      "symbol": "Team.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/Team.swift",
+      "line": 16,
+      "symbol": "Team.players",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/Team.swift",
+      "line": 17,
+      "symbol": "Team.slug",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/Team.swift",
+      "line": 20,
+      "symbol": "BaseTeam",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/Team.swift",
+      "line": 21,
+      "symbol": "BaseTeam.acronym",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/Team.swift",
+      "line": 22,
+      "symbol": "BaseTeam.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/Team.swift",
+      "line": 23,
+      "symbol": "BaseTeam.image_url",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/Team.swift",
+      "line": 24,
+      "symbol": "BaseTeam.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Teams/Team.swift",
+      "line": 25,
+      "symbol": "BaseTeam.slug",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Tournaments/Tournament.swift",
+      "line": 10,
+      "symbol": "Tournament",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Tournaments/Tournament.swift",
+      "line": 11,
+      "symbol": "Tournament.begin_at",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Tournaments/Tournament.swift",
+      "line": 12,
+      "symbol": "Tournament.end_at",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Tournaments/Tournament.swift",
+      "line": 13,
+      "symbol": "Tournament.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Tournaments/Tournament.swift",
+      "line": 14,
+      "symbol": "Tournament.league",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Tournaments/Tournament.swift",
+      "line": 15,
+      "symbol": "Tournament.league_id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Tournaments/Tournament.swift",
+      "line": 16,
+      "symbol": "Tournament.matches",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Tournaments/Tournament.swift",
+      "line": 17,
+      "symbol": "Tournament.modified_at",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Tournaments/Tournament.swift",
+      "line": 18,
+      "symbol": "Tournament.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Tournaments/Tournament.swift",
+      "line": 19,
+      "symbol": "Tournament.serie",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Tournaments/Tournament.swift",
+      "line": 20,
+      "symbol": "Tournament.slug",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Tournaments/Tournament.swift",
+      "line": 21,
+      "symbol": "Tournament.teams",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Tournaments/Tournament.swift",
+      "line": 22,
+      "symbol": "Tournament.videogame",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Tournaments/Tournament.swift",
+      "line": 23,
+      "symbol": "Tournament.winner_id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Tournaments/Tournament.swift",
+      "line": 24,
+      "symbol": "Tournament.winner",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Tournaments/Tournament.swift",
+      "line": 27,
+      "symbol": "BaseTournament",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Tournaments/Tournament.swift",
+      "line": 28,
+      "symbol": "BaseTournament.begin_at",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Tournaments/Tournament.swift",
+      "line": 29,
+      "symbol": "BaseTournament.end_at",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Tournaments/Tournament.swift",
+      "line": 30,
+      "symbol": "BaseTournament.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Tournaments/Tournament.swift",
+      "line": 31,
+      "symbol": "BaseTournament.league_id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Tournaments/Tournament.swift",
+      "line": 32,
+      "symbol": "BaseTournament.modified_at",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Tournaments/Tournament.swift",
+      "line": 33,
+      "symbol": "BaseTournament.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Tournaments/Tournament.swift",
+      "line": 34,
+      "symbol": "BaseTournament.serie_id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Tournaments/Tournament.swift",
+      "line": 35,
+      "symbol": "BaseTournament.slug",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Tournaments/Tournament.swift",
+      "line": 36,
+      "symbol": "BaseTournament.winner_id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/matrix/Development/syqen-project/panda-api/Sources/panda-api/Types/Tournaments/Tournament.swift",
+      "line": 37,
+      "symbol": "BaseTournament.winner_type",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/matrix/Development/syqen-project/panda-api"
+}
