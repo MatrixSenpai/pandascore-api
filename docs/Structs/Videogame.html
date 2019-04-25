@@ -4,415 +4,454 @@
     <title>Videogame Structure Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
-    <meta charset='utf-8'>
+    <meta charset="utf-8">
     <script src="../js/jquery.min.js" defer></script>
     <script src="../js/jazzy.js" defer></script>
     
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
   </head>
   <body>
+
     <a name="//apple_ref/swift/Struct/Videogame" class="dashAnchor"></a>
+
     <a title="Videogame Structure Reference"></a>
-    <header>
-      <div class="content-wrapper">
-        <p><a href="../index.html">PandaScoreAPI Docs</a> (10% documented)</p>
-      </div>
-    </header>
-    <div class="content-wrapper">
-      <p id="breadcrumbs">
-        <a href="../index.html">PandaScoreAPI Reference</a>
-        <img id="carat" src="../img/carat.png" />
-        Videogame Structure Reference
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="../index.html">
+          PandaScoreAPI Docs
+        </a>
+         (14% documented)
       </p>
-    </div>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="../search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="../index.html">PandaScoreAPI Reference</a>
+      <img class="carat" src="../img/carat.png" />
+      Videogame Structure Reference
+    </p>
+
     <div class="content-wrapper">
-      <nav class="sidebar">
+      <nav class="navigation">
         <ul class="nav-groups">
           <li class="nav-group-name">
-            <a href="../Classes.html">Classes</a>
+            <a class="nav-group-name-link" href="../Client.html">Client</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Classes/Champion.html">Champion</a>
+                <a class="nav-group-task-link" href="../Classes/Client.html">Client</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Classes/Client.html">Client</a>
+                <a class="nav-group-task-link" href="../Client.html#/s:13PandaScoreAPI11APIResponsea">APIResponse</a>
               </li>
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="../Enums.html">Enumerations</a>
+            <a class="nav-group-name-link" href="../Filter/Range Objects.html">Filter/Range Objects</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Enums/DrakeName.html">DrakeName</a>
+                <a class="nav-group-task-link" href="../Filter/Range Objects.html#/s:13PandaScoreAPI28GamesForMatchParameterObjectV">GamesForMatchParameterObject</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Enums/DrakeType.html">DrakeType</a>
+                <a class="nav-group-task-link" href="../Structs/ItemsParameterObject.html">ItemsParameterObject</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Enums/EventKillerType.html">EventKillerType</a>
+                <a class="nav-group-task-link" href="../Structs/GetLeaguesParameterObject.html">GetLeaguesParameterObject</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Enums/EventMinionName.html">EventMinionName</a>
+                <a class="nav-group-task-link" href="../Structs/GetMatchesParameterObject.html">GetMatchesParameterObject</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Enums/EventType.html">EventType</a>
+                <a class="nav-group-task-link" href="../Structs/PlayerParameterObject.html">PlayerParameterObject</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Enums/EventVictimType.html">EventVictimType</a>
+                <a class="nav-group-task-link" href="../Structs/SeriesParameterObject.html">SeriesParameterObject</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Enums/GroupingType.html">GroupingType</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Enums/MatchStatus.html">MatchStatus</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Enums/MatchType.html">MatchType</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Enums/OpponentType.html">OpponentType</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Enums/Role.html">Role</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Enums/StatsType.html">StatsType</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Enums/SupportedLeague.html">SupportedLeague</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Enums/TeamColor.html">TeamColor</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Enums/Timing.html">Timing</a>
+                <a class="nav-group-task-link" href="../Structs/TournamentsParameterObject.html">TournamentsParameterObject</a>
               </li>
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="../Extensions.html">Extensions</a>
+            <a class="nav-group-name-link" href="../Sort Objects.html">Sort Objects</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Extensions/DateFormatter.html">DateFormatter</a>
+                <a class="nav-group-task-link" href="../Structs/GamesForMatchSortObject.html">GamesForMatchSortObject</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Extensions/KeyedDecodingContainer.html">KeyedDecodingContainer</a>
+                <a class="nav-group-task-link" href="../Structs/GamesForMatchSortObject/GamesForMatchSortKey.html">– GamesForMatchSortKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ItemsSortObject.html">ItemsSortObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ItemsSortObject/ItemsSortKey.html">– ItemsSortKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/GetLeaguesSortObject.html">GetLeaguesSortObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/GetLeaguesSortObject/GetLeaguesSortKey.html">– GetLeaguesSortKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/GetMatchesSortObject.html">GetMatchesSortObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/GetMatchesSortObject/GetMatchesSortKey.html">– GetMatchesSortKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/PlayerSortObject.html">PlayerSortObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/PlayerSortObject/PlayerSortObjectKey.html">– PlayerSortObjectKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/SeriesSortObject.html">SeriesSortObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/SeriesSortObject/SeriesSortKeys.html">– SeriesSortKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/TournamentsSortObject.html">TournamentsSortObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/TournamentsSortObject/TournamentsSortKeys.html">– TournamentsSortKeys</a>
               </li>
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="../Protocols.html">Protocols</a>
+            <a class="nav-group-name-link" href="../Champion Types.html">Champion Types</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Protocols.html#/s:13PandaScoreAPI8APIModelP">APIModel</a>
+                <a class="nav-group-task-link" href="../Structs/Champion.html">Champion</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Protocols.html#/s:13PandaScoreAPI12BaseOpponentP">BaseOpponent</a>
+                <a class="nav-group-task-link" href="../Structs/BaseChampion.html">BaseChampion</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Protocols.html#/s:13PandaScoreAPI21EventKillerObjectTypeP">EventKillerObjectType</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Protocols.html#/s:13PandaScoreAPI21EventVictimObjectTypeP">EventVictimObjectType</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Protocols/ResponseDecoder.html">ResponseDecoder</a>
+                <a class="nav-group-task-link" href="../Structs/EventChampion.html">EventChampion</a>
               </li>
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="../Structs.html">Structures</a>
+            <a class="nav-group-name-link" href="../Game Types.html">Game Types</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Structs/BaseChampion.html">BaseChampion</a>
+                <a class="nav-group-task-link" href="../Structs/Game.html">Game</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Structs/BaseGame.html">BaseGame</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/BaseItem.html">BaseItem</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/BaseLeague.html">BaseLeague</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/BaseMatch.html">BaseMatch</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/BasePlayer.html">BasePlayer</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/BaseSerie.html">BaseSerie</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/BaseTeam.html">BaseTeam</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/BaseTournament.html">BaseTournament</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/DateDay.html">DateDay</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/EventAssist.html">EventAssist</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/EventChampion.html">EventChampion</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/EventDrake.html">EventDrake</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/EventHerald.html">EventHerald</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/EventInhibitor.html">EventInhibitor</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/EventKiller.html">EventKiller</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/EventMinion.html">EventMinion</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/EventNashor.html">EventNashor</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/EventNeutralMinion.html">EventNeutralMinion</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/EventPayload.html">EventPayload</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/EventPlayer.html">EventPlayer</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/EventTower.html">EventTower</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/EventVictim.html">EventVictim</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/FavoriteChampion.html">FavoriteChampion</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs.html#/s:13PandaScoreAPI4FlagV">Flag</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/FrameTeam.html">FrameTeam</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/FullGameMatch.html">FullGameMatch</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/Game.html">Game</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/GameEvent.html">GameEvent</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/GameFrame.html">GameFrame</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/GamePlayer.html">GamePlayer</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/GameTeam.html">GameTeam</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/GamesForMatchParameterObject.html">GamesForMatchParameterObject</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/GamesForMatchSortObject.html">GamesForMatchSortObject</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/GamesForMatchSortObject/GamesForMatchSortKey.html">– GamesForMatchSortKey</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/GetLeaguesParameterObject.html">GetLeaguesParameterObject</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/GetLeaguesSortObject.html">GetLeaguesSortObject</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/GetLeaguesSortObject/GetLeaguesSortKey.html">– GetLeaguesSortKey</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/GetMatchesParameterObject.html">GetMatchesParameterObject</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/GetMatchesSortObject.html">GetMatchesSortObject</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/GetMatchesSortObject/GetMatchesSortKey.html">– GetMatchesSortKey</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/Item.html">Item</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/ItemsParameterObject.html">ItemsParameterObject</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/ItemsSortObject.html">ItemsSortObject</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/ItemsSortObject/ItemsSortKey.html">– ItemsSortKey</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/KillsCounters.html">KillsCounters</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/KillsSeries.html">KillsSeries</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/League.html">League</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/MagicDamage.html">MagicDamage</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/Mastery.html">Mastery</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/Match.html">Match</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/MatchLive.html">MatchLive</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/MatchTeamResult.html">MatchTeamResult</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/MostPickedOrBanned.html">MostPickedOrBanned</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/Opponent.html">Opponent</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/PhysicalDamage.html">PhysicalDamage</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/Player.html">Player</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/PlayerAverage.html">PlayerAverage</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/PlayerBySerieStats.html">PlayerBySerieStats</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/PlayerParameterObject.html">PlayerParameterObject</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/PlayerRoleDetail.html">PlayerRoleDetail</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/PlayerRoles.html">PlayerRoles</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/PlayerSortObject.html">PlayerSortObject</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/PlayerSortObject/PlayerSortObjectKey.html">– PlayerSortObjectKey</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/Rune.html">Rune</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/Serie.html">Serie</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/SeriesParameterObject.html">SeriesParameterObject</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/SeriesSortObject.html">SeriesSortObject</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/SeriesSortObject/SeriesSortKeys.html">– SeriesSortKeys</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/ShortVideogameVersion.html">ShortVideogameVersion</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/Spell.html">Spell</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/StatsPlayer.html">StatsPlayer</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/StatsTeam.html">StatsTeam</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/StatsTotal.html">StatsTotal</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/Team.html">Team</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/TeamAverage.html">TeamAverage</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/TeamBySerieStat.html">TeamBySerieStat</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/TeamLastGame.html">TeamLastGame</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/TeamRatio.html">TeamRatio</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/TotalDamage.html">TotalDamage</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/Tournament.html">Tournament</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/TournamentsParameterObject.html">TournamentsParameterObject</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/TournamentsSortObject.html">TournamentsSortObject</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/TournamentsSortObject/TournamentsSortKeys.html">– TournamentsSortKeys</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/TrueDamage.html">TrueDamage</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/UsedItem.html">UsedItem</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/Videogame.html">Videogame</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/Ward.html">Ward</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="../Structs/Winner.html">Winner</a>
+                <a class="nav-group-task-link" href="../Structs/BaseGame.html">BaseGame</a>
               </li>
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="../Typealiases.html">Type Aliases</a>
+            <a class="nav-group-name-link" href="../Item Types.html">Item Types</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Typealiases.html#/s:13PandaScoreAPI11APIResponsea">APIResponse</a>
+                <a class="nav-group-task-link" href="../Structs/Item.html">Item</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Typealiases.html#/s:13PandaScoreAPI8DateTimea">DateTime</a>
+                <a class="nav-group-task-link" href="../Structs/BaseItem.html">BaseItem</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../League Types.html">League Types</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/League.html">League</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Typealiases.html#/s:13PandaScoreAPI4Filea">File</a>
+                <a class="nav-group-task-link" href="../Structs/BaseLeague.html">BaseLeague</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Typealiases.html#/s:13PandaScoreAPI2IDa">ID</a>
+                <a class="nav-group-task-link" href="../Enums/SupportedLeague.html">SupportedLeague</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Matches Types.html">Matches Types</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/FullGameMatch.html">FullGameMatch</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Match.html">Match</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/BaseMatch.html">BaseMatch</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Player Types.html">Player Types</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/GamePlayer.html">GamePlayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Player.html">Player</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/BasePlayer.html">BasePlayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/EventPlayer.html">EventPlayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/StatsPlayer.html">StatsPlayer</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Series Types.html">Series Types</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Serie.html">Serie</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/BaseSerie.html">BaseSerie</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Team Types.html">Team Types</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Team.html">Team</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/BaseTeam.html">BaseTeam</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/GameTeam.html">GameTeam</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/FrameTeam.html">FrameTeam</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/StatsTeam.html">StatsTeam</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Tournaments Types.html">Tournaments Types</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Tournament.html">Tournament</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/BaseTournament.html">BaseTournament</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Other Enums.html">Other Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/DrakeName.html">DrakeName</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/DrakeType.html">DrakeType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/EventKillerType.html">EventKillerType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/EventMinionName.html">EventMinionName</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/EventType.html">EventType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/EventVictimType.html">EventVictimType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/GroupingType.html">GroupingType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/MatchStatus.html">MatchStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/MatchType.html">MatchType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/OpponentType.html">OpponentType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/Role.html">Role</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/StatsType.html">StatsType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/TeamColor.html">TeamColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/Timing.html">Timing</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Other Protocols.html">Other Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Protocols.html#/s:13PandaScoreAPI12BaseOpponentP">BaseOpponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Protocols.html#/s:13PandaScoreAPI21EventKillerObjectTypeP">EventKillerObjectType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Protocols.html#/s:13PandaScoreAPI21EventVictimObjectTypeP">EventVictimObjectType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Other Structs.html">Other Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/EventAssist.html">EventAssist</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/EventDrake.html">EventDrake</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/EventHerald.html">EventHerald</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/EventInhibitor.html">EventInhibitor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/EventKiller.html">EventKiller</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/EventMinion.html">EventMinion</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/EventNashor.html">EventNashor</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/EventNeutralMinion.html">EventNeutralMinion</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/EventPayload.html">EventPayload</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/EventTower.html">EventTower</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/EventVictim.html">EventVictim</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/FavoriteChampion.html">FavoriteChampion</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other Structs.html#/s:13PandaScoreAPI4FlagV">Flag</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/GameEvent.html">GameEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/GameFrame.html">GameFrame</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/KillsCounters.html">KillsCounters</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/KillsSeries.html">KillsSeries</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/MagicDamage.html">MagicDamage</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Mastery.html">Mastery</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/MatchLive.html">MatchLive</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/MatchTeamResult.html">MatchTeamResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/MostPickedOrBanned.html">MostPickedOrBanned</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Opponent.html">Opponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/PhysicalDamage.html">PhysicalDamage</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/PlayerAverage.html">PlayerAverage</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/PlayerBySerieStats.html">PlayerBySerieStats</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/PlayerRoleDetail.html">PlayerRoleDetail</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/PlayerRoles.html">PlayerRoles</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Rune.html">Rune</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ShortVideogameVersion.html">ShortVideogameVersion</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Spell.html">Spell</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/StatsTotal.html">StatsTotal</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/TeamAverage.html">TeamAverage</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/TeamBySerieStat.html">TeamBySerieStat</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/TeamLastGame.html">TeamLastGame</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/TeamRatio.html">TeamRatio</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/TotalDamage.html">TotalDamage</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/TrueDamage.html">TrueDamage</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/UsedItem.html">UsedItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Videogame.html">Videogame</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Ward.html">Ward</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Winner.html">Winner</a>
               </li>
             </ul>
           </li>
         </ul>
       </nav>
       <article class="main-content">
-        <section>
-          <section class="section">
+
+        <section class="section">
+          <div class="section-content">
             <h1>Videogame</h1>
               <div class="declaration">
                 <div class="language">
@@ -422,10 +461,13 @@
               </div>
             <p>Undocumented</p>
 
-          </section>
-          <section class="section task-group-section">
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
             <div class="task-group">
-              <ul>
+              <ul class="item-container">
                 <li class="item">
                   <div>
                     <code>
@@ -536,14 +578,15 @@
                 </li>
               </ul>
             </div>
-          </section>
+          </div>
         </section>
-        <section id="footer">
-          <p>&copy; 2019 <a class="link" href="https://github.com/matrixsenpai/pandascore-api" target="_blank" rel="external">Mason Phillips</a>. All rights reserved. (Last updated: 2019-04-24)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
-        </section>
+
       </article>
     </div>
+    <section class="footer">
+      <p>&copy; 2019 <a class="link" href="https://github.com/matrixsenpai" target="_blank" rel="external">MatrixSenpai</a>. All rights reserved. (Last updated: 2019-04-25)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
   </body>
 </div>
 </html>

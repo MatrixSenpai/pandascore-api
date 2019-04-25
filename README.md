@@ -4,13 +4,6 @@
 
 A callback based API client with built-in reactive extensions
 
-##### Compatible Games
-- [ ] CS:GO
-- [ ] Dota2
-- [x] League of Legends
-- [ ] Overwatch
-- [ ] PUBG
-
 _Currently, this package does not support Live (`wss://`)_
 
 #### Overview
@@ -20,20 +13,37 @@ let client: Client = Client("<PANDASCORE_API_TOKEN>")
 ```
 
 ##### Making a request
-There are multiple endpoints, each with a similar structure
+Each endpoint has a similar structure.
 
-- Simple Endpoints
-    - These endpoints cannot filter, sort, or use a range
-    - These endpoints cannot page
-    - Used for single items
+Simple endpoints like `getChampion` and `getItem` can take an ID or a list of IDs, and return a single object or a filtered list.
 
-Simple endpoints are:
+More complex endpoints, like those for `games`, `matches`, `series`, and `tournaments`, have a slightly more complex structure
+
+There are 3 main parts to these requests: 
+- page/per_page
+- filter/range
+- sort
+
+Page and per_page are relatively self-explainatory. They deal with the pagination of the request
+> Note: In future versions, a response will contain the next and previous paging information, to allow for easier pagination of requests
+
+Filter and range allow the limitations on the data returned by applying filters on the properties _of the returning object_.
+
+Sort allows the data returned to be sorted by a property _on the returning objects_
+
+A quick sample of making requests
 ```swift
-getChampion(by: Int)
+let filterObject = GetMatchesParametersObject(finished: true, number_of_games: 1)
+let sortObject = GetMatchesSortObject(keys: [(.begin_at, true)])
+client.getMatches(filter: filterObject) { response in 
+  // Do something
+}
 ```
-```swift
-getGame(for: Int)
-```
-```swift
-getItem(by: Int)
-```
+This request gets only finished matches with one game, and sorts them in ascending order by when they began.
+
+
+For further documentation on how the API works, check out [the PandaScore official documentation](https://developers.pandascore.co/doc/).
+
+#### Problems?
+
+Submit an issue

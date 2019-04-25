@@ -8,7 +8,7 @@
 import Foundation
 
 /// A League of Legends Champion
-public class Champion: Decodable {
+public struct Champion: Decodable {
     // Info
     /// ID of champion
     public let id: Float
@@ -67,34 +67,15 @@ public class Champion: Decodable {
     /// Magic resistance gained per level
     public let magicresistperlevel: Float
 
-    public required init(from decoder: Decoder) throws {
-        let container = try decoder.container(keyedBy: StringCodingKey.self)
-        armor = try container.decode("armor")
-        armorperlevel = try container.decode("armorperlevel")
-        attackdamage = try container.decode("attackdamage")
-        attackdamageperlevel = try container.decode("attackdamageperlevel")
-        attackrange = try container.decode("attackrange")
-        attackspeedoffset = try container.decode("attackspeedoffset")
-        attackspeedperlevel = try container.decode("attackspeedperlevel")
-        splashArt = try container.decode("big_image_url")
-        crit = try container.decode("crit")
-        critperlevel = try container.decode("critperlevel")
-        hp = try container.decode("hp")
-        hpperlevel = try container.decode("hpperlevel")
-        hpregen = try container.decode("hpregen")
-        hpregenperlevel = try container.decode("hpregenperlevel")
-        id = try container.decode("id")
-        icon = try container.decode("image_url")
-        movementSpeed = try container.decode("movespeed")
-        mp = try container.decode("mp")
-        mpperlevel = try container.decode("mpperlevel")
-        mpregen = try container.decode("mpregen")
-        mpregenperlevel = try container.decode("mpregenperlevel")
-        name = try container.decode("name")
-        magicresist = try container.decode("spellblock")
-        magicresistperlevel = try container.decode("spellblockperlevel")
-        availableIn = try container.decode("videogame_versions")
-
+    enum CodingKeys: String, CodingKey {
+        case id, name, attackdamage, attackdamageperlevel, attackrange, attackspeedoffset, attackspeedperlevel, crit, critperlevel,
+        hp, hpperlevel, hpregen, hpregenperlevel, mp, mpperlevel, mpregen, mpregenperlevel, armor, armorperlevel
+        case splashArt = "big_image_url"
+        case icon = "image_url"
+        case availableIn = "videogame_versions"
+        case movementSpeed = "movespeed"
+        case magicresist = "spellblock"
+        case magicresistperlevel = "spellblockperlevel"
     }
 }
 

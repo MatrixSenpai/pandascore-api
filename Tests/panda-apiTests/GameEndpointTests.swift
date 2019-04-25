@@ -17,21 +17,15 @@ final class GameEndpointTests: XCTestCase {
     
     func testGetAllGames() {
         let e = self.expectation(description: "Should get all games for LCS Spring Finals 2019 (TL vs TSM)")
-        client.games(for: 542827).subscribe(onSuccess: { (games) in
+        client.getGames(forMatch: 542827).subscribe(onSuccess: { (games) in
             XCTAssertEqual(games.count, 5, "Games count incorrect, expected 5, got \(games.count)")
             guard let first = games.first else { XCTFail("Could not get first game!"); return }
             XCTAssertEqual(first.match.tournament.slug, "league-of-legends-lcs-spring-2019-playoffs", "Wrong match was fetched")
             XCTAssertEqual(first.match.tournament_id, 2189, "Wrong match was fetched")
             e.fulfill()
         }, onError: errorHandler).disposed(by: bag)
-        
-        let ee = self.expectation(description: "Should get sorted by length")
-        let sortObject = GamesForMatchSortObject(keys: [(.length, true)])
-        client.games(for: 542827, sort: sortObject).subscribe(onSuccess: { (games) in
-            ee.fulfill()
-        }, onError: errorHandler).disposed(by: bag)
-        
-        wait(for: [e, ee], timeout: 5.0)
+
+        wait(for: [e], timeout: 5.0)
     }
     
     func testGetSingleGame() {
