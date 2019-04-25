@@ -53,7 +53,7 @@ public struct ItemsParameterObject: ParameterObject {
     public let percent_life_steal_mod: [Int]?
     public let percent_movement_speed_mod: [Int]?
     
-    init(flat_armor_mod: [Int]? = nil, flat_crit_chance_mod: [Int]? = nil, flat_hp_pool_mod: [Int]? = nil, flat_hp_regen_mod: [Int]? = nil, flat_magic_damage_mod: [Int]? = nil, flat_movement_speed_mod: [Int]? = nil, flat_mp_pool_mod: [Int]? = nil, flat_mp_regen_mod: [Int]? = nil, flat_physical_damage_mod: [Int]? = nil, flat_spell_block_mod: [Int]? = nil, gold_base: [Int]? = nil, gold_purchasable: [Bool]? = nil, gold_sell: [Int]? = nil, gold_total: [Int]? = nil, id: [Int]? = nil, is_trinket: [Bool]? = nil, name: [String]? = nil, percent_attack_speed_mod: [Int]? = nil, percent_life_steal_mod: [Int]? = nil, percent_movement_speed_mod: [Int]? = nil) {
+    public init(flat_armor_mod: [Int]? = nil, flat_crit_chance_mod: [Int]? = nil, flat_hp_pool_mod: [Int]? = nil, flat_hp_regen_mod: [Int]? = nil, flat_magic_damage_mod: [Int]? = nil, flat_movement_speed_mod: [Int]? = nil, flat_mp_pool_mod: [Int]? = nil, flat_mp_regen_mod: [Int]? = nil, flat_physical_damage_mod: [Int]? = nil, flat_spell_block_mod: [Int]? = nil, gold_base: [Int]? = nil, gold_purchasable: [Bool]? = nil, gold_sell: [Int]? = nil, gold_total: [Int]? = nil, id: [Int]? = nil, is_trinket: [Bool]? = nil, name: [String]? = nil, percent_attack_speed_mod: [Int]? = nil, percent_life_steal_mod: [Int]? = nil, percent_movement_speed_mod: [Int]? = nil) {
         self.flat_armor_mod = flat_armor_mod
         self.flat_crit_chance_mod = flat_crit_chance_mod
         self.flat_hp_pool_mod = flat_hp_pool_mod
@@ -85,6 +85,10 @@ public struct ItemsSortObject: SortObject {
         case flat_armor_mod, flat_crit_chance_mod, flat_hp_pool_mod, flat_hp_regen_mod, flat_magic_damage_mod, flat_movement_speed_mod, flat_mp_pool_mod, flat_mp_regen_mod,
         flat_physical_damage_mod, flat_spell_block_mod, gold_base, gold_purchasable, gold_sell, gold_total, id, is_trinket, name, percent_attack_speed_mod, percent_life_steal_mod,
         percent_movement_speed_mod
+    }
+    
+    public init(_ keys: [(ItemsSortKey, Bool)]) {
+        self.keys = keys
     }
 }
 

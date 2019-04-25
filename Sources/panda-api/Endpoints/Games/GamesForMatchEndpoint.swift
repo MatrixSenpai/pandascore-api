@@ -57,7 +57,7 @@ public struct GamesForMatchParameterObject: ParameterObject {
     let match_id: [Int]?
     let position: [Int]?
     
-    init(begin_at: [Date]? = nil, finished: [Bool]? = nil, id: [Int]? = nil, length: [Int]? = nil, match_id: [Int]? = nil, position: [Int]? = nil) {
+    public init(begin_at: [Date]? = nil, finished: [Bool]? = nil, id: [Int]? = nil, length: [Int]? = nil, match_id: [Int]? = nil, position: [Int]? = nil) {
         self.begin_at = begin_at
         self.finished = finished
         self.id = id
@@ -85,6 +85,10 @@ public struct GamesForMatchSortObject: SortObject {
     /// The keys used to sort a GameForMatch object
     public enum GamesForMatchSortKey: String {
         case begin_at, finished, id, length, match_id, position, winner_type
+    }
+    
+    public init(_ keys: [(GamesForMatchSortKey, Bool)]) {
+        self.keys = keys
     }
 }
 

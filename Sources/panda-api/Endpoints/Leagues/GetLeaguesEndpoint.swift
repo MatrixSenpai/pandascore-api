@@ -33,13 +33,13 @@ struct GetLeaguesEndpoint: APIRequest {
 }
 
 public struct GetLeaguesParameterObject: ParameterObject {
-    public let id: [Int]?
-    public let live_supported: [Bool]?
-    public let modified_at: [Date]?
-    public let name: [String]?
-    public let slug: [String]?
+    let id: [Int]?
+    let live_supported: [Bool]?
+    let modified_at: [Date]?
+    let name: [String]?
+    let slug: [String]?
     
-    init(id: [Int]? = nil, live_supported: [Bool]? = nil, modified_at: [Date]? = nil, name: [String]? = nil, slug: [String]? = nil) {
+    public init(id: [Int]? = nil, live_supported: [Bool]? = nil, modified_at: [Date]? = nil, name: [String]? = nil, slug: [String]? = nil) {
         self.id = id
         self.live_supported = live_supported
         self.modified_at = modified_at
@@ -50,10 +50,14 @@ public struct GetLeaguesParameterObject: ParameterObject {
 
 public struct GetLeaguesSortObject: SortObject {
     typealias KeyType = GetLeaguesSortKey
-    public let keys: [(GetLeaguesSortKey, Bool)]?
+    let keys: [(GetLeaguesSortKey, Bool)]?
     
     public enum GetLeaguesSortKey: String {
         case id, image_url, live_supported, modified_at, name, slug, url
+    }
+    
+    public init(_ keys: [(GetLeaguesSortKey, Bool)]) {
+        self.keys = keys
     }
 }
 

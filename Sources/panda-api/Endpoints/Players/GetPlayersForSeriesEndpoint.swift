@@ -51,7 +51,7 @@ public struct PlayerParameterObject: ParameterObject {
     public let role: [String]?
     public let slug: [String]?
     
-    init(first_name: [String]? = nil, hometown: [String]? = nil, id: [Int]? = nil, last_name: [String]? = nil, name: [String]? = nil, role: [String]? = nil, slug: [String]? = nil) {
+    public init(first_name: [String]? = nil, hometown: [String]? = nil, id: [Int]? = nil, last_name: [String]? = nil, name: [String]? = nil, role: [String]? = nil, slug: [String]? = nil) {
         self.first_name = first_name
         self.hometown = hometown
         self.id = id
@@ -68,6 +68,10 @@ public struct PlayerSortObject: SortObject {
     
     public enum PlayerSortObjectKey: String {
         case first_name, hometown, id, image_url, last_name, name, role, slug
+    }
+    
+    public init(_ keys: [(PlayerSortObjectKey, Bool)]) {
+        self.keys = keys
     }
 }
 

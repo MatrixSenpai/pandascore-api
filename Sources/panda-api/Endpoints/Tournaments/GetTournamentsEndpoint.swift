@@ -50,7 +50,7 @@ public struct TournamentsParameterObject: ParameterObject {
     public let slug: [String]?
     public let winner_id: [Int]?
     
-    init(begin_at: [Date]? = nil, end_at: [Date]? = nil, id: [Int]? = nil, modified_at: [Date]? = nil, name: [String]? = nil, serie_id: [Int]?, slug: [String]? = nil, winner_id: [Int]?) {
+    public init(begin_at: [Date]? = nil, end_at: [Date]? = nil, id: [Int]? = nil, modified_at: [Date]? = nil, name: [String]? = nil, serie_id: [Int]?, slug: [String]? = nil, winner_id: [Int]?) {
         self.begin_at = begin_at
         self.end_at = end_at
         self.id = id
@@ -68,6 +68,10 @@ public struct TournamentsSortObject: SortObject {
     
     public enum TournamentsSortKeys: String {
         case begin_at, end_at, id, league_id, modified_at, name, serie_id, slug, winner_id
+    }
+    
+    public init(_ keys: [(TournamentsSortKeys, Bool)]) {
+        self.keys = keys
     }
 }
 

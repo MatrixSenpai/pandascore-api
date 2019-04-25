@@ -54,7 +54,7 @@ public struct SeriesParameterObject: ParameterObject {
     public let winner_id: [Int]?
     public let year: [Int]?
     
-    init(begin_at: [Date]? = nil, description: [String]? = nil, end_at: [Date]? = nil, full_name: [String]? = nil, id: [Int]? = nil, league_id: [Int]? = nil, modified_at: [Date]? = nil, name: [String]? = nil, prizepool: [String]? = nil, season: [String]? = nil, slug: [String]? = nil, winner_id: [Int]? = nil, year: [Int]? = nil) {
+    public init(begin_at: [Date]? = nil, description: [String]? = nil, end_at: [Date]? = nil, full_name: [String]? = nil, id: [Int]? = nil, league_id: [Int]? = nil, modified_at: [Date]? = nil, name: [String]? = nil, prizepool: [String]? = nil, season: [String]? = nil, slug: [String]? = nil, winner_id: [Int]? = nil, year: [Int]? = nil) {
         self.begin_at = begin_at
         self.description = description
         self.end_at = end_at
@@ -77,6 +77,10 @@ public struct SeriesSortObject: SortObject {
     
     public enum SeriesSortKeys: String {
         case begin_at, description, end_at, full_name, id, league_id, modified_at, name, prizepool, season, slug, winner_id, winner_type, year
+    }
+    
+    public init(_ keys: [(SeriesSortKeys, Bool)]) {
+        self.keys = keys
     }
 }
 

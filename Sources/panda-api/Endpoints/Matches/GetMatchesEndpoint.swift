@@ -57,7 +57,7 @@ public struct GetMatchesParameterObject: ParameterObject {
     public let unscheduled: Bool?
     public let winner_id: [Int]?
     
-    init(begin_at: [Date]? = nil, draw: [Bool]? = nil, finished: Bool? = nil, future: Bool? = nil, id: [Int]? = nil, league_id: [Int]? = nil, name: [String]? = nil, not_started: Bool? = nil, number_of_games: [Int]? = nil, past: Bool? = nil, running: Bool? = nil, serie_id: [Int]? = nil, slug: [String]? = nil, tournament_id: [Int]? = nil, unscheduled: Bool? = nil, winner_id: [Int]? = nil) {
+    public init(begin_at: [Date]? = nil, draw: [Bool]? = nil, finished: Bool? = nil, future: Bool? = nil, id: [Int]? = nil, league_id: [Int]? = nil, name: [String]? = nil, not_started: Bool? = nil, number_of_games: [Int]? = nil, past: Bool? = nil, running: Bool? = nil, serie_id: [Int]? = nil, slug: [String]? = nil, tournament_id: [Int]? = nil, unscheduled: Bool? = nil, winner_id: [Int]? = nil) {
         self.begin_at = begin_at
         self.draw = draw
         self.finished = finished
@@ -83,6 +83,10 @@ public struct GetMatchesSortObject: SortObject {
     
     public enum GetMatchesSortKey: String {
         case begin_at, draw, id, league_id, match_type, modified_at, name, number_of_games, serie_id, slug, status, tournament_id, winner_id
+    }
+    
+    public init(_ keys: [(GetMatchesSortKey, Bool)]) {
+        self.keys = keys
     }
 }
 
