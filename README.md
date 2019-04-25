@@ -1,5 +1,10 @@
 # PandaScoreAPI
 
+![Package Managers](https://img.shields.io/badge/Package%20Managers-SPM%20%7C%20CocoaPods-important.svg?style=for-the-badge)
+![Cocoapods platforms](https://img.shields.io/cocoapods/p/PandaScoreAPI.svg?style=for-the-badge)
+![Cocoapods](https://img.shields.io/cocoapods/v/PandaScoreAPI.svg?style=for-the-badge)
+![Discord](https://img.shields.io/discord/569027254550528030.svg?style=for-the-badge)
+
 ### A Swift implementation of the PandaScore API
 
 A callback based API client with built-in reactive extensions
