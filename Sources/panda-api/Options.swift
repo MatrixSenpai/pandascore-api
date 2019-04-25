@@ -78,7 +78,9 @@ extension ParameterObject {
             } else if let value = child.value as? Bool {
                 inner = String(describing: value)
             } else if let value = child.value as? Date {
-                inner = DateFormatter(formatString: "yyyy-MM-dd'T'HH:mm:ssZ").string(from: value)
+                let f = DateFormatter()
+                f.dateFormat = "yyyy-MM-dd'T'HH:mm:ssZ"
+                inner = f.string(from: value)
             } else { continue }
             
             let qi = URLQueryItem(name: "\(key.rawValue)[\(label)]", value: inner)

@@ -1,0 +1,74 @@
+author: MatrixSenpai
+author_url: https://github.com/matrixsenpai
+podspec: PandaScoreAPI.podspec
+module: PandaScoreAPI
+theme: fullwidth
+min-acl: public
+custom_categories:
+  - name: Client
+    children:
+      - Client
+      - APIResponse
+  - name: Filter/Range Objects
+    children:
+      - GamesForMatchParameterObject
+      - ItemsParameterObject
+      - GetLeaguesParameterObject
+      - GetMatchesParameterObject
+      - PlayerParameterObject
+      - SeriesParameterObject
+      - TournamentsParameterObject
+  - name: Sort Objects
+    children:
+      - GamesForMatchSortObject
+      - ItemsSortObject
+      - GetLeaguesSortObject
+      - GetMatchesSortObject
+      - PlayerSortObject
+      - SeriesSortObject
+      - TournamentsSortObject
+  - name: Champion Types
+    children:
+      - Champion
+      - BaseChampion
+      - EventChampion
+  - name: Game Types
+    children:
+      - Game
+      - BaseGame
+  - name: Item Types
+    children:
+      - Item
+      - BaseItem
+  - name: League Types
+    children:
+      - League
+      - BaseLeague
+      - SupportedLeague
+  - name: Matches Types
+    children:
+      - FullGameMatch
+      - Match
+      - BaseMatch
+  - name: Player Types
+    children:
+      - GamePlayer
+      - Player
+      - BasePlayer
+      - EventPlayer
+      - StatsPlayer
+  - name: Series Types
+    children:
+      - Serie
+      - BaseSerie
+  - name: Team Types
+    children:
+      - Team
+      - BaseTeam
+      - GameTeam
+      - FrameTeam
+      - StatsTeam
+  - name: Tournaments Types
+    children:
+      - Tournament
+      - BaseTournament
