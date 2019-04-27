@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "PandaScoreAPI"
-  s.version = "1.0.1"
+  s.version = "1.0.2"
   s.summary = "API lib for PandaScore used in Syqen"
 
   s.homepage = "https://github.com/matrixsenpai/pandascore-api"
