@@ -5,6 +5,8 @@
 ![Cocoapods](https://img.shields.io/cocoapods/v/PandaScoreAPI.svg?style=for-the-badge)
 ![Discord](https://img.shields.io/discord/569027254550528030.svg?style=for-the-badge)
 
+**DEPRECATED** in favor of [api-common/Pandascore](https://github.com/MatrixSenpai/api-common)
+
 ### A Swift implementation of the PandaScore API
 
 A callback based API client with built-in reactive extensions
